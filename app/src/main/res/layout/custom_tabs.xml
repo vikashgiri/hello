@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_half"
+    android:layout_marginTop="@dimen/margin_half"
+    android:orientation="vertical">
+
+    <com.infoicon.bonjob.customview.CustomRadioButton
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rbSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:clickable="false"
+        android:drawablePadding="@dimen/margin_half"
+        android:drawableTop="@drawable/radio_selected"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/selected"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/margin_13"/>
+
+    <com.infoicon.bonjob.customview.CustomsTextView
+        android:id="@+id/tvItemsCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="@dimen/margin_13"/>
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rgMyOffers"
+            android:weightSum="4">
+
+    <com.infoicon.bonjob.customview.CustomRadioButton
+        android:id="@+id/rbCandidates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/text_color"
+        android:button="@null"
+        android:drawablePadding="@dimen/margin_half"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_margin="@dimen/default_margin"
+        android:drawableTop="@drawable/radio_candidate"
+        android:text="@string/candidate"/>
+
+    <com.infoicon.bonjob.customview.CustomRadioButton
+        android:id="@+id/rbSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:drawablePadding="@dimen/margin_half"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_margin="@dimen/default_margin"
+        android:textColor="@color/text_color"
+        android:drawableTop="@drawable/radio_selected"
+        android:text="@string/selected"/>
+
+    <com.infoicon.bonjob.customview.CustomRadioButton
+        android:id="@+id/rbHired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/default_margin"
+        android:button="@null"
+        android:textSize="@dimen/text_size_normal"
+        android:drawablePadding="@dimen/margin_half"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:drawableTop="@drawable/radio_hired"
+        android:text="@string/hired"/>
+
+    <com.infoicon.bonjob.customview.CustomRadioButton
+        android:id="@+id/rbMyOffers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/margin_half"
+        android:button="@null"
+        android:checked="true"
+        android:textSize="@dimen/text_size_normal"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        android:textColor="@color/text_color"
+        android:drawableTop="@drawable/radio_my_offer"
+        android:text="@string/my_offers"/>
+
+</RadioGroup>

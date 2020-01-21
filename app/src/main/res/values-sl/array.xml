@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="array_job_offered" tools:ignore="InconsistentArrays">
+        <item>Apprentice Bartender</item>
+        <item>Area Director</item>
+        <item>Assistant Chef</item>
+        <item>Assistant General Manager</item>
+        <item>Assistant Kitchen Manager</item>
+        <item>Associate Creative Director</item>
+        <item>Back Office Assistant</item>
+        <item>Back Office Supervisor</item>
+        <item>Backwaiter</item>
+        <item>Baker</item>
+        <item>Bakery-Cafe Associate</item>
+        <item>Banquet Manager</item>
+        <item>Banquet Server</item>
+        <item>Bar Manager</item>
+        <item>Bar Staff</item>
+        <item>Barback</item>
+        <item>Barista</item>
+        <item>Bartender</item>
+        <item>Bartender</item>
+        <item>Bell Attendant</item>
+        <item>Bellhop</item>
+        <item>Bellman</item>
+        <item>Bellperson</item>
+        <item>Brand Manager</item>
+        <item>Bus Person</item>
+        <item>Busser</item>
+        <item>Cafe Manager</item>
+        <item>Cashier</item>
+        <item>Casual Restaurant Manager</item>
+        <item>Catering Manager</item>
+        <item>Catering Sales Manager</item>
+        <item>Chef</item>
+        <item>Chef</item>
+        <item>Chef Manager</item>
+        <item>Coffee Tasting Room Assistant</item>
+        <item>Communications Manager</item>
+        <item>Concierge</item>
+        <item>Concierge Agent</item>
+        <item>Cook</item>
+        <item>Cook</item>
+        <item>Corporate Sales Manager</item>
+        <item>Crew Member</item>
+        <item>Culinary Services Supervisor</item>
+        <item>Culinary Trainee</item>
+        <item>Dessert Finisher</item>
+        <item>Digital Marketing Manager</item>
+        <item>Dining Room Manager</item>
+        <item>Director of Hotel Operations</item>
+        <item>Director of Hotel Sales</item>
+        <item>Director of Human Resources</item>
+        <item>Director of Maintenance</item>
+        <item>Director of Marketing</item>
+        <item>Director of Operations</item>
+        <item>Director of Sales</item>
+        <item>Dishwasher</item>
+        <item>Dishwasher</item>
+        <item>District Manager</item>
+        <item>Driver</item>
+        <item>Espresso Beverage Maker</item>
+        <item>Event Planner</item>
+        <item>Events Manager</item>
+        <item>Executive Chef</item>
+        <item>Executive Conference Manager</item>
+        <item>Executive Housekeeper</item>
+        <item>Executive Meeting Manager</item>
+        <item>Expeditor</item>
+        <item>Field Recruiting Manager</item>
+        <item>Fine Dining Restaurant Manager</item>
+        <item>Food and Beverage Manager</item>
+        <item>Food Runner</item>
+        <item>Food Runner</item>
+        <item>Food Server</item>
+        <item>Front Desk Agent</item>
+        <item>Front Desk Associate</item>
+        <item>Front Desk Clerk</item>
+        <item>Front Desk Sales and Service Associate</item>
+        <item>Front Desk Supervisor</item>
+        <item>Front Manager</item>
+        <item>Front Office Associate</item>
+        <item>Front Office Associate</item>
+        <item>Front Office Attendant</item>
+        <item>Gardener</item>
+        <item>General Manager</item>
+        <item>Greeter</item>
+        <item>Grill Cook</item>
+        <item>Groundskeeper</item>
+        <item>Group Sales Coordinator</item>
+        <item>Group Sales Manager</item>
+        <item>Guest Room Sales Manager</item>
+        <item>Guest Service Representative</item>
+        <item>Guest Services Associate</item>
+        <item>Guest Services Coordinator</item>
+        <item>Guest Services Manager</item>
+        <item>Guest Services Supervisor</item>
+        <item>Hibachi Chef</item>
+        <item>Host</item>
+        <item>Host</item>
+        <item>Hostess</item>
+        <item>Hotel Deposit Clerk</item>
+        <item>Hotel Group Sales Manager</item>
+        <item>Housekeeper</item>
+        <item>Housekeeper Aide</item>
+        <item>Housekeeping Supervisor</item>
+        <item>Human Resources Manager</item>
+        <item>Inventory Analyst</item>
+        <item>Kitchen Manager</item>
+        <item>Kitchen Manager</item>
+        <item>Kitchen Team Member</item>
+        <item>Kitchen Worker</item>
+        <item>Lead Cook</item>
+        <item>Lead Housekeeper</item>
+        <item>Line Cook</item>
+        <item>Maintenance Supervisor</item>
+        <item>Maintenance Worker</item>
+        <item>Manager, Research and Development</item>
+        <item>Manager, Special Events</item>
+        <item>Marketing Coordinator</item>
+        <item>Meeting Concierge</item>
+        <item>Meeting Coordinator</item>
+        <item>Meeting Manager</item>
+        <item>Meeting Planner</item>
+        <item>Meeting Specialist</item>
+        <item>Mini-Bar Attendant</item>
+        <item>National Training Manager</item>
+        <item>Night Auditor</item>
+        <item>Night Clerk</item>
+        <item>Operations Analyst</item>
+        <item>Pantry Worker</item>
+        <item>Porter</item>
+        <item>Prep Cook</item>
+        <item>Product Manager</item>
+        <item>Public Relations Coordinator</item>
+        <item>Public Relations Manager</item>
+        <item>Regional Brand Development Manager</item>
+        <item>Regional Facilities Manager</item>
+        <item>Regional Manager</item>
+        <item>Regional Operations Specialist</item>
+        <item>Reservations Agent</item>
+        <item>Restaurant General Manager</item>
+        <item>Restaurant Manager</item>
+        <item>Restaurant Manager</item>
+        <item>Room Attendant</item>
+        <item>Room Service Manager</item>
+        <item>Room Service Worker</item>
+        <item>Sales and Marketing Coordinator</item>
+        <item>Sales Coordinator</item>
+        <item>Sales Manager</item>
+        <item>Server</item>
+        <item>Server</item>
+        <item>Shift Leader</item>
+        <item>Shift Manager</item>
+        <item>Shift Supervisor</item>
+        <item>Sous Chef</item>
+        <item>Steward</item>
+        <item>Team Member</item>
+        <item>Transportation Coordinator</item>
+        <item>Valet Attendant</item>
+        <item>Valet Parker</item>
+        <item>Valet Parking Attendant</item>
+        <item>Wait Staff</item>
+        <item>Waiter</item>
+        <item>Waitress</item>
+        <item>Wedding Coordinator</item>
+        <item>Wedding Sales Manager</item>
+    </string-array>
+
+
+    <string-array name="array_restaurant" tools:ignore="InconsistentArrays">
+        <item>Apprentice Bartender</item>
+        <item>Area Director</item>
+        <item>Assistant Chef</item>
+        <item>Assistant General Manager</item>
+        <item>Assistant Kitchen Manager</item>
+        <item>Associate Creative Director</item>
+        <item>Baker</item>
+        <item>Bakery&#8211;Cafe Associate</item>
+        <item>Barback</item>
+        <item>Barista</item>
+        <item>Bar Manager</item>
+        <item>Bartender</item>
+        <item>Brand Manager</item>
+        <item>Bus Person</item>
+        <item>Cashier</item>
+        <item>Casual Restaurant Manager</item>
+        <item>Chef</item>
+        <item>Chef Manager</item>
+        <item>Coffee Tasting Room Assistant</item>
+        <item>Communications Manager</item>
+        <item>Cook</item>
+        <item>Culinary Services Supervisor</item>
+        <item>Culinary Trainee</item>
+        <item>Dessert Finisher</item>
+        <item>Digital Marketing Manager</item>
+        <item>Dining Room Manager</item>
+        <item>Director of Human Resources</item>
+        <item>Dishwasher</item>
+        <item>District Manager</item>
+        <item>Espresso Beverage Maker</item>
+        <item>Executive Chef</item>
+        <item>Expeditor</item>
+        <item>Field Recruiting Manager</item>
+        <item>Fine Dining Restaurant Manager</item>
+        <item>Food Runner</item>
+        <item>Front Manager</item>
+        <item>Grill Cook</item>
+        <item>Hibachi Chef</item>
+        <item>Host</item>
+        <item>Human Resources Manager</item>
+        <item>Inventory Analyst</item>
+        <item>Kitchen Manager</item>
+        <item>Kitchen Worker</item>
+        <item>Lead Cook</item>
+        <item>Line Cook</item>
+        <item>Manager, Research and Development</item>
+        <item>National Training Manager</item>
+        <item>Operations Analyst</item>
+        <item>Pantry Worker</item>
+        <item>Prep Cook</item>
+        <item>Product Manager</item>
+        <item>Regional Brand Development Manager</item>
+        <item>Regional Facilities Manager</item>
+        <item>Regional Manager</item>
+        <item>Regional Operations Specialist</item>
+        <item>Restaurant General Manager</item>
+        <item>Restaurant Manager</item>
+        <item>Server</item>
+        <item>Shift Supervisor</item>
+        <item>Sous Chef</item>
+        <item>Steward</item>
+
+    </string-array>
+
+    <string-array name="array_sale_service" tools:ignore="InconsistentArrays">
+        <item>Backwaiter</item>
+        <item>Banquet Server</item>
+        <item>Banquet Manager</item>
+        <item>Bartender</item>
+        <item>Bar Staff</item>
+        <item>Busser</item>
+        <item>Cafe Manager</item>
+        <item>Catering Manager</item>
+        <item>Catering Sales Manager</item>
+        <item>Chef</item>
+        <item>Cook</item>
+        <item>Dishwasher</item>
+        <item>Food and Beverage Manager</item>
+        <item>Food Runner</item>
+        <item>Food Server</item>
+        <item>Host</item>
+        <item>Hostess</item>
+        <item>Kitchen Team Member</item>
+        <item>Kitchen Manager</item>
+        <item>Restaurant Manager</item>
+        <item>Server</item>
+        <item>Wait Staff</item>
+        <item>Waiter</item>
+        <item>Waitress</item>
+
+    </string-array>
+
+    <string-array name="array_hotel" tools:ignore="InconsistentArrays">
+        <item>Back Office Assistant</item>
+        <item>Back Office Supervisor</item>
+        <item>Bell Attendant</item>
+        <item>Bellhop</item>
+        <item>Bellman</item>
+        <item>Bellperson</item>
+        <item>Concierge</item>
+        <item>Concierge Agent</item>
+        <item>Corporate Sales Manager</item>
+        <item>Crew Member</item>
+        <item>Director of Hotel Operations</item>
+        <item>Director of Hotel Sales</item>
+        <item>Director of Maintenance</item>
+        <item>Director of Marketing</item>
+        <item>Director of Operations</item>
+        <item>Director of Sales</item>
+        <item>Driver</item>
+        <item>Event Planner</item>
+        <item>Events Manager</item>
+        <item>Executive Conference Manager</item>
+        <item>Executive Housekeeper</item>
+        <item>Executive Meeting Manager</item>
+        <item>Front Desk Agent</item>
+        <item>Front Desk Associate</item>
+        <item>Front Desk Clerk</item>
+        <item>Front Desk Sales and Service Associate</item>
+        <item>Front Desk Supervisor</item>
+        <item>Front Office Associate</item>
+        <item>Front Office Associate</item>
+        <item>Front Office Attendant</item>
+        <item>Gardener</item>
+        <item>General Manager</item>
+        <item>Greeter</item>
+        <item>Groundskeeper</item>
+        <item>Group Sales Coordinator</item>
+        <item>Group Sales Manager</item>
+        <item>Guest Room Sales Manager</item>
+        <item>Guest Service Representative</item>
+        <item>Guest Services Associate</item>
+        <item>Guest Services Coordinator</item>
+        <item>Guest Services Manager</item>
+        <item>Guest Services Supervisor</item>
+        <item>Hotel Deposit Clerk</item>
+        <item>Hotel Group Sales Manager</item>
+        <item>Housekeeper</item>
+        <item>Housekeeper Aide</item>
+        <item>Housekeeping Supervisor</item>
+        <item>Lead Housekeeper</item>
+        <item>Maintenance Supervisor</item>
+        <item>Maintenance Worker</item>
+        <item>Manager, Special Events</item>
+        <item>Marketing Coordinator</item>
+        <item>Meeting Concierge</item>
+        <item>Meeting Coordinator</item>
+        <item>Meeting Manager</item>
+        <item>Meeting Planner</item>
+        <item>Meeting Specialist</item>
+        <item>Mini&#8211;Bar Attendant</item>
+        <item>Night Auditor</item>
+        <item>Night Clerk</item>
+        <item>Porter</item>
+        <item>Public Relations Coordinator</item>
+        <item>Public Relations Manager</item>
+        <item>Reservations Agent</item>
+        <item>Room Attendant</item>
+        <item>Room Service Manager</item>
+        <item>Room Service Worker</item>
+        <item>Sales and Marketing Coordinator</item>
+        <item>Sales Coordinator</item>
+        <item>Sales Manager</item>
+        <item>Shift Leader</item>
+        <item>Shift Manager</item>
+        <item>Team Member</item>
+        <item>Transportation Coordinator</item>
+        <item>Valet Attendant</item>
+        <item>Valet Parker</item>
+        <item>Valet Parking Attendant</item>
+        <item>Wedding Coordinator</item>
+        <item>Wedding Sales Manager</item>
+    </string-array>
+
+    <string-array name="array_active_area" >
+        <item>@string/activity_kitchen_cat</item>
+        <item>@string/activity_room_service</item>
+        <item>@string/activity_hotel_accom</item>
+    </string-array>
+
+
+    <string-array name="array_language">
+        <item>@string/francies</item>
+        <item>@string/anglais</item>
+        <item>@string/espagnol</item>
+        <item>@string/allemand</item>
+        <item>@string/portgal</item>
+        <item>@string/china</item>
+        <item>@string/japnise</item>
+        <item>@string/arabic</item>
+        <item>@string/russia</item>
+        <item>@string/hindi</item>
+    </string-array>
+
+    <string-array name="education_level">
+        <item>@string/no_diploma</item>
+        <item>@string/youth_training</item>
+        <item>@string/vocational_training</item>
+        <item>@string/bp</item>
+        <item>@string/high_school</item>
+        <item>@string/high_school_profess_training</item>
+        <item>@string/higher_diploma</item>
+        <item>@string/higher_edu</item>
+        <item>@string/bachelor</item>
+        <item>@string/master</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="array_type_of_contract">
+        <item>@string/fixed_term_contract</item>
+        <item>@string/permanent_contract</item>
+        <item>@string/intrim</item>
+        <item>@string/apprenticeship</item>
+        <item>@string/internship</item>
+        <item>@string/franchise</item>
+    </string-array>
+
+
+
+    <string-array name="array_ed_profile_salary">
+        <item>@string/ten_sal</item>
+        <item>@string/fifty_sal</item>
+        <item>@string/hundred_sal</item>
+        <item>@string/hundred_plus_sal</item>
+    </string-array>
+
+    <string-array name="array_com_category">
+        <item>@string/restaurent</item>
+        <item>@string/hotel</item>
+        <item>@string/hotel_restaurznt</item>
+        <item>@string/cafe</item>
+        <item>@string/nightclub</item>
+        <item>@string/therepy</item>
+        <item>@string/caterer</item>
+    </string-array>
+
+    <string-array name="array_salary">
+        <item>@string/sal1</item>
+        <item>@string/sal2</item>
+        <item>@string/sal3</item>
+        <item>@string/sal4</item>
+        <item>@string/sal5</item>
+        <item>@string/sal6</item>
+        <item>@string/sal7</item>
+        <item>@string/sal8</item>
+        <item>@string/sal9</item>
+        <item>@string/sal10</item>
+        <item>@string/sal11</item>
+        <item>@string/sal12</item>
+    </string-array>
+
+    <string-array name="array_experience">
+        <item>@string/exp1</item>
+        <item>@string/exp2</item>
+        <item>@string/exp3</item>
+        <item>@string/exp4</item>
+        <item>@string/exp5</item>
+    </string-array>
+
+    <string-array name="array_mobility">
+        <item>@string/profilefirstcell_yes</item>
+        <item>@string/profilesecondcell_no</item>
+    </string-array>
+
+    <string-array name="array_num_hour">
+        <item>@string/num_hour1</item>
+        <item>@string/num_hour2</item>
+        <item>@string/num_hour3</item>
+        <item>@string/num_hour4</item>
+        <item>@string/num_hour5</item>
+        <item>@string/num_hour6</item>
+        <item>@string/num_hour7</item>
+    </string-array>
+
+    <string-array name="array_status_actual">
+        <item>@string/profilefirstcell_student</item>
+        <item>@string/profilesecondcell_appretice</item>
+        <item>@string/profilesecondcell_activr</item>
+        <item>@string/profilesecondcell_job_seeker</item>
+        <item>@string/profilesecondcell_inactive</item>
+    </string-array>
+
+    <string-array name="array_full_part_time_job">
+        <item>Full time</item>
+        <item>Part time</item>
+    </string-array>
+
+
+    <string-array name="array_country_code">
+        <item>+93</item>
+        <item>+355</item>
+        <item>+213</item>
+        <item>+1684</item>
+        <item>+376</item>
+        <item>+244</item>
+        <item>+1264</item>
+        <item>+672</item>
+        <item>+54</item>
+        <item>+374</item>
+        <item>+297</item>
+        <item>+61</item>
+        <item>+43</item>
+        <item>+994</item>
+        <item>+1</item>
+        <item>+973</item>
+        <item>+880</item>
+        <item>+1</item>
+        <item>+375</item>
+        <item>+32</item>
+        <item>+501</item>
+        <item>+229</item>
+        <item>+1</item>
+        <item>+975</item>
+        <item>+591</item>
+        <item>+387</item>
+        <item>+267</item>
+        <item>+55</item>
+        <item>+1284</item>
+        <item>+673</item>
+        <item>+359</item>
+        <item>+226</item>
+        <item>+257</item>
+        <item>+855</item>
+        <item>+237</item>
+        <item>+1</item>
+        <item>+238</item>
+        <item>+1345</item>
+        <item>+236</item>
+        <item>+56</item>
+        <item>+86</item>
+        <item>+57</item>
+        <item>+269</item>
+        <item>+682</item>
+        <item>+506</item>
+        <item>+385</item>
+        <item>+53</item>
+        <item>+599</item>
+        <item>+357</item>
+        <item>+420</item>
+        <item>+243</item>
+        <item>+45</item>
+        <item>+253</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+670</item>
+        <item>+593</item>
+        <item>+20</item>
+        <item>+503</item>
+        <item>+240</item>
+        <item>+291</item>
+        <item>+372</item>
+        <item>+251</item>
+        <item>+500</item>
+        <item>+298</item>
+        <item>+679</item>
+        <item>+358</item>
+        <item>+33</item>
+        <item>+689</item>
+        <item>+241</item>
+        <item>+220</item>
+        <item>+995</item>
+        <item>+49</item>
+        <item>+233</item>
+        <item>+350</item>
+        <item>+30</item>
+        <item>+299</item>
+        <item>+590</item>
+        <item>+1671</item>
+        <item>+502</item>
+        <item>+224</item>
+        <item>+245</item>
+        <item>+592</item>
+        <item>+509</item>
+        <item>+504</item>
+        <item>+852</item>
+        <item>+36</item>
+        <item>+354</item>
+        <item>+91</item>
+        <item>+62</item>
+        <item>+98</item>
+        <item>+964</item>
+        <item>+353</item>
+        <item>+44</item>
+        <item>+972</item>
+        <item>+39</item>
+        <item>+225</item>
+        <item>+1</item>
+        <item>+81</item>
+        <item>+962</item>
+        <item>+7</item>
+        <item>+254</item>
+        <item>+686</item>
+        <item>+381</item>
+        <item>+965</item>
+        <item>+996</item>
+        <item>+856</item>
+        <item>+371</item>
+        <item>+961</item>
+        <item>+266</item>
+        <item>+231</item>
+        <item>+218</item>
+        <item>+423</item>
+        <item>+370</item>
+        <item>+352</item>
+        <item>+853</item>
+        <item>+389</item>
+        <item>+261</item>
+        <item>+265</item>
+        <item>+60</item>
+        <item>+960</item>
+        <item>+223</item>
+        <item>+356</item>
+        <item>+692</item>
+        <item>+222</item>
+        <item>+230</item>
+        <item>+52</item>
+        <item>+691</item>
+        <item>+373</item>
+        <item>+377</item>
+        <item>+976</item>
+        <item>+382</item>
+        <item>+1664</item>
+        <item>+212</item>
+        <item>+258</item>
+        <item>+95</item>
+        <item>+264</item>
+        <item>+674</item>
+        <item>+977</item>
+        <item>+31</item>
+        <item>+687</item>
+        <item>+64</item>
+        <item>+505</item>
+        <item>+227</item>
+        <item>+234</item>
+        <item>+683</item>
+        <item>+672</item>
+        <item>+850</item>
+        <item>+1670</item>
+        <item>+47</item>
+        <item>+968</item>
+        <item>+92</item>
+        <item>+680</item>
+        <item>+507</item>
+        <item>+675</item>
+        <item>+595</item>
+        <item>+51</item>
+        <item>+63</item>
+        <item>+870</item>
+        <item>+48</item>
+        <item>+351</item>
+        <item>+1</item>
+        <item>+974</item>
+        <item>+242</item>
+        <item>+262</item>
+        <item>+40</item>
+        <item>+7</item>
+        <item>+250</item>
+        <item>+590</item>
+        <item>+290</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+1599</item>
+        <item>+508</item>
+        <item>+1</item>
+        <item>+685</item>
+        <item>+378</item>
+        <item>+239</item>
+        <item>+966</item>
+        <item>+221</item>
+        <item>+381</item>
+        <item>+248</item>
+        <item>+232</item>
+        <item>+65</item>
+        <item>+421</item>
+        <item>+386</item>
+        <item>+677</item>
+        <item>+252</item>
+        <item>+27</item>
+        <item>+82</item>
+        <item>+211</item>
+        <item>+34</item>
+        <item>+94</item>
+        <item>+249</item>
+        <item>+597</item>
+        <item>+268</item>
+        <item>+46</item>
+        <item>+41</item>
+        <item>+963</item>
+        <item>+886</item>
+        <item>+992</item>
+        <item>+255</item>
+        <item>+66</item>
+        <item>+228</item>
+        <item>+690</item>
+        <item>+1</item>
+        <item>+216</item>
+        <item>+90</item>
+        <item>+993</item>
+        <item>+688</item>
+        <item>+256</item>
+        <item>+380</item>
+        <item>+971</item>
+        <item>+44</item>
+        <item>+1</item>
+        <item>+598</item>
+        <item>+998</item>
+        <item>+678</item>
+        <item>+39</item>
+        <item>+58</item>
+        <item>+84</item>
+        <item>+212</item>
+        <item>+967</item>
+        <item>+260</item>
+        <item>+263</item>
+    </string-array>
+
+    <string-array name="array_country_name">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curacao</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea&#8211;Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar (Burma)</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>

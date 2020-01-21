@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_container"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible">
+
+    <LinearLayout
+android:padding="@dimen/margin_12"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="@dimen/margin_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/header_logo"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvMessage"
+            android:layout_marginTop="@dimen/margin_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_12"
+            android:layout_marginRight="@dimen/margin_12"
+            android:layout_marginBottom="@dimen/margin_30"
+
+            android:text="@string/facebook_signup_message"
+            android:textColor="@color/text_color"   android:textSize="@dimen/text_size_normal"
+            android:textStyle="normal"
+            android:gravity="left"
+            />
+<EditText
+                android:id="@+id/edEmail"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:background="@drawable/edittext_bg"
+    android:paddingBottom="@dimen/default_margin"
+    android:hint="@string/connection_email"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/text_size_normal" />
+
+
+            <EditText
+                android:id="@+id/edLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_double"
+                android:background="@drawable/edittext_bg"
+                android:paddingBottom="@dimen/default_margin"
+                android:hint="@string/Ville"
+
+                android:editable="false"
+                android:textSize="@dimen/text_size_normal" />
+
+
+
+            <EditText
+                android:id="@+id/edExperiance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_double"
+                android:background="@drawable/edittext_bg"
+                android:paddingBottom="@dimen/default_margin"
+                android:hint="@string/experience"
+                android:editable="false"
+                android:textSize="@dimen/text_size_normal" />
+
+            <EditText
+                android:id="@+id/edtextViewTraninng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_double"
+                android:background="@drawable/edittext_bg"
+                android:paddingBottom="@dimen/default_margin"
+                android:hint="@string/profilesecondcell_spec_training"
+                android:editable="false"
+
+                android:textSize="@dimen/text_size_normal" />
+
+
+        <EditText
+            android:id="@+id/edEnterprise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_double"
+            android:layout_marginTop="@dimen/margin_double"
+            android:background="@drawable/edittext_bg"
+            android:paddingBottom="@dimen/default_margin"
+            android:hint="@string/company_name"
+
+            android:textSize="@dimen/text_size_normal" />
+
+
+        <EditText
+            android:id="@+id/edtextViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_double"
+            android:layout_marginTop="@dimen/margin_double"
+            android:background="@drawable/edittext_bg"
+            android:paddingBottom="@dimen/default_margin"
+            android:hint="@string/phone"
+android:inputType="phone"
+            android:textSize="@dimen/text_size_normal" />
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <com.infoicon.bonjob.customview.CustomCheckBox
+                    android:id="@+id/cbTermsConditionAccept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/custom_radio"
+                    android:drawablePadding="@dimen/default_margin"
+                    android:text="@string/registration_accept"
+                    android:textColor="@color/text_color" />
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvTermsOfUse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:text="@string/registration_condition"
+                    android:textColor="@color/blue_color" />
+
+            </LinearLayout>
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/buttonSignUp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_30"
+                android:background="@drawable/round_button_pink"
+                android:paddingLeft="@dimen/margin_40"
+                android:paddingRight="@dimen/margin_40"
+                android:text="@string/record"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_22" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>

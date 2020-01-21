@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_half"
+        android:background="@drawable/dialog_shape2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_top_blue"
+            android:padding="@dimen/margin_15">
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/default_margin"
+                android:text="@string/type_of_contract"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_25"/>
+
+            <ImageView
+                android:id="@+id/imageViewClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/default_margin"
+                android:layout_centerVertical="true"
+                android:src="@drawable/white_cancel"/>
+
+        </RelativeLayout>
+
+         <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl"
+            android:padding="@dimen/margin_half"
+             android:layout_weight="1"
+            android:layout_above="@+id/buttonOk"/>
+        <Button
+            android:background="@drawable/round_bottom_blue"
+            android:id="@+id/buttonOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_22" />
+    </LinearLayout>
+
+
+</RelativeLayout>

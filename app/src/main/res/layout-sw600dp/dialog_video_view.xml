@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_ludovic"
+                android:layout_width="@dimen/margin_400"
+                android:layout_height="@dimen/margin_400"
+                android:layout_gravity="center"
+                android:background="@color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_shape_half_trasparent"
+        android:orientation="vertical"
+        android:padding="@dimen/default_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/frame_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <!-- Video player -->
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                </VideoView>
+            </FrameLayout>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/round_button_pink"
+                android:paddingBottom="@dimen/margin_half"
+                android:paddingLeft="@dimen/margin_double"
+                android:paddingRight="@dimen/margin_double"
+                android:paddingTop="@dimen/margin_half"
+                android:textSize="@dimen/text_size_normal"
+                android:text="@string/remove2"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/margin_half"
+                android:padding="@dimen/margin_12"
+
+                android:textColor="@color/white"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/margin_double"
+        android:src="@drawable/close_btn_pink"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rlController"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_bottom_transparent_half"
+        android:clickable="true"
+        android:padding="@dimen/default_margin"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_white"/>
+
+        <ImageView
+            android:id="@+id/imageViewPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pause_icon"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imageViewFull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/fullscreen_icon"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

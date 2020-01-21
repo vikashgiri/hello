@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_settings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/reciveNotidication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewReciveNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/receive_notifications"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <Switch
+                android:id="@+id/toogleButtonReciveNotification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewReceiveEmails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/receiveemails"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <Switch
+                android:id="@+id/toogleButtonReciveEmails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlGiveMyOpinion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewGiveMyOpinion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/give_my_opinion"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <ImageView
+                android:id="@+id/imageViewGiveMyOpinion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                android:src="@drawable/grey_arrow_right"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTermsOfUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewTermsOfUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/terms_of_use"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <ImageView
+                android:id="@+id/imageViewTermsOfUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                android:src="@drawable/infomation"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlFaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewFAQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/faq"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <ImageView
+                android:id="@+id/imageViewFAQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                android:src="@drawable/grey_arrow_right"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSubscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:padding="@dimen/default_margin">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewSubscription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_normal"
+                android:text="@string/subscription"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <ImageView
+                android:id="@+id/imageViewsubscripton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_15"
+                android:src="@drawable/grey_arrow_right"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.infoicon.bonjob.customview.CustomsButton
+        android:id="@+id/buttonSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/margin_100"
+        android:layout_marginRight="@dimen/margin_100"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/round_button_pink"
+        android:text="@string/sign_out"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

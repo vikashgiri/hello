@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_pink"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="@dimen/default_margin"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/default_margin"
+            android:text="@string/profile_my"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/text_size_medium"/>
+
+        <ImageView
+            android:id="@+id/imageViewSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/settings_filled"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:background="@color/text_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:orientation="vertical">
+
+        <com.infoicon.bonjob.customview.CustomsItalicTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery"
+            android:textColor="@color/blue_color"
+            android:drawableLeft="@drawable/iconphotomaterialdesign"
+            android:drawableStart="@drawable/iconphotomaterialdesign"
+            android:padding="@dimen/default_margin"
+            android:drawablePadding="@dimen/default_margin"
+            android:textSize="@dimen/text_size_medium"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/icobookmark_bluee"
+          android:state_checked="true">
+        <shape>
+
+            <padding android:top="@dimen/default_margin"/>
+        </shape>
+
+    </item>
+    <item android:drawable="@drawable/icobookmark"
+          android:state_checked="false">
+        <shape>
+
+            <padding android:top="@dimen/default_margin"/>
+
+        </shape>
+    </item>
+</selector>

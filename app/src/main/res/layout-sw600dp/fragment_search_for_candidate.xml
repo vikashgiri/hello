@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_single_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:padding="@dimen/margin_half"
+            android:text="@string/search_keywords"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_30"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_toLeftOf="@+id/imageViewFilter"
+            android:background="@drawable/border_transparent">
+
+            <com.infoicon.bonjob.customview.CustomEditText
+                android:id="@+id/edSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/footer_search_deactive"
+                android:drawablePadding="@dimen/default_margin"
+                android:ellipsize="end"
+                android:hint="@string/ex_keywords"
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:text=""
+                android:textColorHint="@color/text_color"
+                android:textSize="@dimen/margin_25"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_toLeftOf="@+id/imageViewFilter"
+            >
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_half"
+                android:text="@string/targeted_search"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/margin_30"/>
+
+            <ImageView
+                android:id="@+id/ivFilter"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/locate"/>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <com.infoicon.bonjob.customview.CustomsTextView
+        android:id="@+id/tvNoResultFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_result_found"
+        android:textColor="@color/pink_color"
+        android:textSize="@dimen/margin_30"
+        android:visibility="gone"/>
+
+</RelativeLayout>

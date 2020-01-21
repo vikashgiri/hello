@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlPlanMonth"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_double"
+        android:layout_marginRight="@dimen/margin_double"
+        android:padding="@dimen/default_margin">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvPlanLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="1 Mois"
+            android:inputType="textCapSentences"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/margin_30"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/tvPlanPricing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="39.00€"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/margin_30"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/tvPlanFor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HT par mois"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/text_size_22"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

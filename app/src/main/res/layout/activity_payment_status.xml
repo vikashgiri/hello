@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/dialog_ludovic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/margin_double"
+                    android:background="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/dialog_shape"
+            android:elevation="@dimen/default_margin"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_double">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_double"
+                android:src="@drawable/header_logo"/>
+
+            <ImageView
+                android:id="@+id/imageViewStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_40"
+                android:src="@drawable/icocheckmarkplein"/>
+
+            <LinearLayout
+                android:id="@+id/linearSuccessPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvPaymentStatusFailedSuccess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_double"
+                    android:gravity="center"
+                    android:text="Merci pour votre abonnement,\nvotre paiement est validé. "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnPostJob"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_60"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:background="@drawable/round_button_pink"
+                    android:text="@string/post_job"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+
+                 <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnFindCandidate"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_60"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:layout_marginTop="@dimen/margin_double"
+                    android:background="@drawable/round_button_blue"
+                    android:text="@string/find_candidate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvEditProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_double"
+                    android:gravity="center"
+                    android:text="@string/secondviewfor_edit_my_profile"
+                    android:textSize="@dimen/text_size_22"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearFailurePayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvPaymentStatusFailedMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="start"
+                    android:text="Désolé, votre paiement n'a pas pu être validé."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="start"
+                    android:text="@string/redirect_payment_module"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnSubscribe"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_50"
+                    android:layout_marginRight="@dimen/margin_50"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:background="@drawable/border_pink"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="Je m'abonne"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"
+                    />
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:text="@string/to_contact_us"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:gravity="center"
+                    android:text="contact@bonjob.co"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/margin_25"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

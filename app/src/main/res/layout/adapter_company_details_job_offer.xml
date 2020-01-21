@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/subRleativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_half"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/border_gray_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/device_weight_half">
+
+            <ImageView
+                android:id="@+id/imgViewJob"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/device_weight_half"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:padding="@dimen/margin_1"
+            />
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvPostedOnDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:text="12/04/2017 - 9:05"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/default_margin"
+            android:paddingLeft="@dimen/default_margin"
+            android:paddingBottom="@dimen/default_margin"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Server / Serveuse de restaurant pour emploi a temps partiel 20h/semaine, experience en restaurant rapide appreciee."
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal"/>
+    </LinearLayout>
+
+</RelativeLayout>

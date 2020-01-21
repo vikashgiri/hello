@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_60"
+    android:layout_alignParentTop="true"
+    android:background="@color/white"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    android:elevation="@dimen/margin_1"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_margin"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/profile_my"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/margin_30"
+            android:layout_alignBottom="@+id/imageViewSetting"
+           />
+
+        <ImageView
+            android:id="@+id/imageViewSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/default_margin"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings_filled"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

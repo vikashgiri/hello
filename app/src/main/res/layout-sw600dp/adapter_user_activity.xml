@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@color/text_color">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@color/white"
+        android:padding="@dimen/margin_half">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rlTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.infoicon.bonjob.customview.CircleImageView
+                android:id="@+id/imgViewJob"
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="@dimen/margin_120"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_photo_deactive"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="@dimen/margin_100"
+                android:layout_height="@dimen/margin_100"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/default_photo_deactive"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_toRightOf="@+id/imgViewJob"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:padding="@dimen/margin_half"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="SERVEUR H/F - 20H/SEM"
+                    android:textColor="@color/black"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/default_margin"
+                    android:enabled="false"
+                    android:padding="@dimen/margin_half"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="fsdfsdfsdfs"
+                    android:textColor="@color/black"/>
+
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvAgo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="@dimen/margin_half"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="@string/there_is"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearAcceptReject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlTop"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:background="@color/white"
+            android:orientation="horizontal"
+android:visibility="gone"
+            android:weightSum="2">
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/btnReject"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_pink"
+                android:text="@string/reject"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+
+                android:padding="@dimen/margin_12"
+                android:textSize="@dimen/margin_25"
+                />
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/btnAccept"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:padding="@dimen/margin_12"
+                android:textSize="@dimen/margin_25"
+                android:background="@drawable/round_button_blue"
+                android:text="@string/accepter"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

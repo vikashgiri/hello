@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_double"
+                android:layout_weight="1"
+                android:src="@drawable/header_logo"/>
+
+            <com.infoicon.bonjob.customview.CustomsItalicTextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_half"
+                android:layout_marginLeft="@dimen/margin_80"
+                android:layout_marginRight="@dimen/margin_80"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:text="@string/publish_your_job_offer"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/margin_25"
+                android:textStyle="normal"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/image_Size_big"
+                android:layout_height="@dimen/image_Size_big"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_marginTop="@dimen/margin_half"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/login_img"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/buttonFbLogin"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:background="@drawable/round_fb_button"
+                    android:text="@string/connection_via_facebook"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.infoicon.bonjob.customview.CustomsButton
+                        android:id="@+id/buttonSignUp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_double"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button_blue"
+                        android:text="@string/registration"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_22"
+                        />
+
+                    <com.infoicon.bonjob.customview.CustomsButton
+                        android:id="@+id/buttonLogin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_double"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_button_blue"
+                        android:text="@string/login"
+
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_22"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/findajob7"
+                    android:textColor="@color/black"
+                    />
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvTermsOfUse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:text="@string/findajob8"
+                    android:textColor="@color/blue_color"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

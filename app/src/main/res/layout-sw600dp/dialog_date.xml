@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#90000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin_double"
+        android:layout_marginRight="@dimen/margin_double"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_dialog_layout"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/lo_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <DatePicker
+                    android:id="@+id/date_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:calendarViewShown="false"
+                    android:spinnersShown="true"
+                    android:theme="@style/datepicker"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lo_date_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lo_date"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btn_ok_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_pink"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/set_date"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_normal"
+                    android:visibility="visible"/>
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btn_cancel_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_pink"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/cancel"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColor="@color/pink_color"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textView_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/select_date"
+                android:textColor="#000000"
+                android:textSize="25sp"/>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/textView_title"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

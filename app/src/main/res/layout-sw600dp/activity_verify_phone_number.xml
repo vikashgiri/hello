@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/dialog_ludovic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/margin_double"
+                    android:background="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@drawable/dialog_shape"
+            android:elevation="@dimen/default_margin"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_double">
+
+            <ImageView
+                android:layout_width="@dimen/margin_350"
+                android:layout_height="@dimen/margin_80"
+                android:layout_gravity="center"
+                android:src="@drawable/header_logo"/>
+
+            <ImageView
+                android:layout_width="@dimen/margin_120"
+                android:layout_height="@dimen/margin_120"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/default_margin"
+                android:src="@drawable/icolock"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:text="@string/verify_number_msg"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/margin_30"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:gravity="left"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:text="@string/number_not_shared"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/margin_30"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:gravity="left"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:text="@string/click_verify_msg"
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_30"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/margin_30"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/border_pink"
+                    android:text="@string/cancel"
+
+
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+
+                    style="?android:attr/borderlessButtonStyle"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"/>
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnVerify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:layout_weight="1"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:background="@drawable/round_button_pink"
+                    android:text="@string/verify"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

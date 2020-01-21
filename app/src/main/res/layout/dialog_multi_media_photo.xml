@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/transparent_20"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/default_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:layout_marginTop="@dimen/margin_double"
+        android:background="@drawable/dialog_shape2"
+        android:orientation="vertical">
+
+
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_half"
+            android:layout_gravity="center"
+            android:drawablePadding="15dp"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/Picture"
+            android:drawableLeft="@drawable/ic_photo_camera_black_24dp"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/text_size_22"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/text_color"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/margin_half"
+            android:layout_gravity="center"
+            android:drawablePadding="15dp"
+
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/videos"
+            android:drawableLeft="@drawable/ic_videocam_black_24dp"
+
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/text_size_22"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/text_color"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:drawablePadding="15dp"
+
+            android:padding="@dimen/margin_half"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/file"
+            android:textColor="@color/blue_color"
+            android:drawableLeft="@drawable/ic_insert_drive_file_black_24dp"
+            android:textSize="@dimen/text_size_22"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/text_color"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/video_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_half"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/video_call"
+            android:drawablePadding="15dp"
+android:visibility="gone"
+            android:textColor="@color/blue_color"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:textSize="@dimen/text_size_22"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:background="@drawable/dialog_shape2"
+        android:orientation="vertical">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/margin_half"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/cancel"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/text_size_22"/>
+    </LinearLayout>
+
+
+</LinearLayout>

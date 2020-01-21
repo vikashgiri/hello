@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+
+    <LinearLayout
+        android:id="@+id/linearNoSelected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_double"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="@string/no_candidate_selected_moment"
+            android:textColor="@color/pink_color"
+            android:textSize="@dimen/margin_30"/>
+
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/btnSearchForCandidate"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+
+            android:layout_marginTop="@dimen/margin_40"
+            android:background="@drawable/round_button_pink"
+            android:paddingLeft="@dimen/margin_double"
+            android:paddingRight="@dimen/margin_double"
+            android:text="@string/search_for_candidate"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:padding="@dimen/margin_12"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"
+            />
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/btnPostAJob"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/margin_12"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"
+            android:layout_marginTop="@dimen/margin_40"
+            android:background="@drawable/round_button_blue"
+            android:paddingLeft="@dimen/margin_double"
+            android:paddingRight="@dimen/margin_double"
+            android:text="@string/post_a_job"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            />
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/rlRetry"
+        android:layout_width="@dimen/margin_45"
+        android:layout_height="@dimen/margin_45"
+
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvErrorMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_double"
+            android:drawableTop="@drawable/sad"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="Something went wrong"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_40"/>
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/btnRetry"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvErrorMessage"
+
+
+            android:background="@drawable/round_button_pink"
+            android:text="@string/retry"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+
+            android:padding="@dimen/margin_12"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tvDropDown"
+
+            android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerSelected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tvDropDown"
+            android:layout_marginLeft="@dimen/margin_half"
+            android:layout_marginRight="@dimen/margin_half"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvDropDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white3"
+            android:drawableRight="@drawable/toggle_up"
+            android:elevation="@dimen/margin_1"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="@string/archieve_candidate"
+            android:textColor="@color/pink_color"
+            android:textSize="@dimen/margin_30"/>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container_Archieve"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tvDropDown"
+
+            android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewArchiveSelected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tvDropDown"
+            android:background="@color/white"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

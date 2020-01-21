@@ -1,0 +1,677 @@
+<resources>
+
+
+    <string name="app_name">BonJob</string>
+    <string name="sodexo">sodexo</string>
+    <string-array name="array_full_part_time_job">
+        <item>Full time</item>
+        <item>Part time</item>
+    </string-array>
+    <!--<string name="facebook_app_id">1648186295209411</string>-->
+    <string name="facebook_app_id">350749725385451</string>
+    <string name="google_maps_key">AIzaSyAsbWkL1j-nsNlpAGPDfGo7QwtWB-B-bLc</string>
+
+    <string name="message_change_setting">Modifier les paramètres.</string>
+    <string name="message_feature_not_implemented">Cette fonctionnalité n\'est pas encore implémentée.</string>
+    <string name="message_server_alert">Oops! Something went wrong, I cannot explain right now ;-), Try again later </string>
+    <string name="message_signout">Êtes-vous sûr de vouloir vous déconnecter de l\'application BonJob sur cet appareil.</string>
+    <string name="network_error_message">Veuillez vérifier la connectivité réseau.</string>
+    <string name="message_location_permission_request">Nous devons avoir accès à votre emplacement afin de vous montrer des résultats précis.Veuillez aller aux paramètres de l\'application et autoriser la permission.</string>
+<!--
+    <string name="message_location_not_enable">Vos services de localisation sont désactivés. Veuillez l\'activer afin que nous puissions mieux vous servir.</string>
+-->
+    <string name="message_location_not_enable">Votre service de localisation est désactivé. Veuillez l\'activer afin de profiter de l\'ensemble de nos fonctionnalités.</string>
+
+
+    <string name="message_logout">Déconnexion</string>
+    <string name="googleplay_service_not_available">GooglePlay service is not available.</string>
+    <string name="message_ok">D\'accord</string>
+
+    <string name="message_goto_setting">Go to Settings</string>
+    <string name="exit_from_app">Êtes-vous sûr de vouloir quitter l\'application?</string>
+
+    <string name="find_job">Trouver un emploi</string>
+    <string name="recruite_a_candidate">RECRUTER UN CANDIDAT</string>
+    <string name="connection_via_facebook">Connexion via Facebook</string>
+    <string name="registration">Inscription</string>
+    <string name="login">Connexion</string>
+    <string name="message_find_job_in_hotel_catering">Trouvez un emploi dans\n I\'hotellerie-restauration</string>
+    <string name="findajob7">J\'ai lu et j\'accepte les</string>
+    <string name="findajob8">conditions d\'utillisation</string>
+
+    <string name="registration_connection">Connexion</string>
+    <string name="registration_photo">+ PHOTO</string>
+    <string name="registration_pitch_video">+ PITCH VIDEO</string>
+    <string name="registration_first_name">Prénom</string>
+    <string name="registration_name">Nom</string>
+    <string name="registration_password">Mot de passe</string>
+    <string name="registration_accept">J\'ai lu et j\'accepte les</string>
+    <string name="registration_condition">conditions d\'utilisation</string>
+
+    <string name="connection_email">Email</string>
+    <string name="connection_password">Mot de passe</string>
+    <string name="connection">Connexion</string>
+    <string name="connection_forgot">Mot de passe oublié ?</string>
+    <string name="tabbar_look">Chercher</string>
+    <string name="tabbar_my_offer">Mes offres</string>
+    <string name="tabbar_chat">chat</string>
+    <string name="tabbar_active">Activité</string>
+    <string name="tabbar_profile">Profil</string>
+    <string name="secondviewfor_welcome">Bienvenue</string>
+    <string name="secondviewfor_connect_recr">BonJob est un outil gratuit pour\n vous connecter avec les recruteurs</string>
+    <string name="secondviewfor_optimize_chance">Pour optimiser vos chances </string>
+    <string name="secondviewfor_add_one">Ajoutez \nune</string>
+    <string name="secondviewfor_photo">Photo</string>
+    <string name="secondviewfor_indicate">Indiquez \nvotre</string>
+    <string name="secondviewfor_experience">Expérience</string>
+    <string name="secondviewfor_reg_a">Enregistrez \nun</string>
+    <string name="secondviewfor_pitch_video">Pitch Video</string>
+    <string name="secondviewfor_edit_my_profile">Modifier mon profil</string>
+    <string name="secondviewfor11">Chercher un emploi</string>
+    <string name="secondviewfor_look_job">À la recherche d\'un emploi</string>
+    <string name="profile_my">Mon profil</string>
+    <string name="profilefirstcell11">Ludovic Nicoleau</string>
+    <string name="profilefirstcell_Location">Localisation</string>
+    <string name="profilefirstcell22">Saint-Lo , Normandie-0.0km</string>
+    <string name="profilefirstcell_prof_exp">Expérience professionnelle</string>
+    <string name="profilefirstcell_proj_man">Chef de projet</string>
+    <string name="profilefirstcell33">Evenormandie</string>
+    <string name="profilefirstcell34">Responsable de la mise en place de la foire gastronomique de Saint-Lo en charge du commerce et des relations avec les médias. </string>
+    <string name="profilefirstcell_training">Formation</string>
+    <string name="profilefirstcell_not_specified">Non précisé</string>
+    <string name="profilefirstcell_language">Langues</string>
+    <string name="profilefirstcell52">Anglais-Courant</string>
+    <string name="profilefirstcell_about">A propos</string>
+    <string name="profilefirstcell_looking_job">Je cherche un travail pour cuisiner</string>
+    <string name="profilefirstcell_actual_status">Statut actuel</string>
+    <string name="profilefirstcell_student">Étudiant</string>
+    <string name="profilefirstcell_mobility">Mobilité</string>
+    <string name="profilefirstcell_yes">Oui</string>
+    <string name="profilefirstcell_edit_my_profile">Modifier mon profil</string>
+
+    <string name="record">Enregistrer</string>
+    <string name="profile_register">registre</string>
+    <string name="profilesecondcell_first_name">PRÉNOM</string>
+    <string name="profilesecondcell_name">NOM</string>
+    <string name="profilesecondcell22">nicoleau</string>
+    <string name="profilesecondcell_born">NÉ(E)LE</string>
+    <string name="profilesecondcell_city">VILLE</string>
+    <string name="Ville">Ville</string>
+    <string name="profilesecondcell42">Saint-lo</string>
+    <string name="profilesecondcell_photo">PHOTO</string>
+    <string name="profilesecondcell_pitch_video">PITCH VIDEO</string>
+    <string name="profilesecondcell_experince">EXPÉRIENCE</string>
+    <string name="profilesecondcell_lev_edu">NIVEAU DE FORMATION</string>
+
+    <string name="job_sought">Emploi recherché</string>
+
+
+    <string name="profilesecondcell_to_select">Pour sélectionner</string>
+    <string name="profilesecondcell_spec_training">Spécifier votre formation</string>
+    <string name="profilesecondcell_about">Sur</string>
+    <string name="profilesecondcell_beginner">Débutant</string>
+    <string name="profilesecondcell_intermediate">Intermédiaire</string>
+    <string name="profilesecondcell_advance">Avancé</string>
+    <string name="profilesecondcell_current">Courant</string>
+    <string name="profilesecondcell_add">+ Ajouter</string>
+    <string name="profilesecondcell_actual_status">Statut actuel</string>
+    <string name="profilesecondcell_student_apprentice">Apprenti étudiant</string>
+    <string name="profilesecondcell_appretice">Apprenti</string>
+    <string name="profilesecondcell_activr">Actif</string>
+    <string name="profilesecondcell_job_seeker">Demandeur d\'emploi</string>
+    <string name="profilesecondcell_inactive">Inactif</string>
+    <string name="profilesecondcell_mobility">Mobilité</string>
+    <string name="profilesecondcell_no">Non</string>
+    <string name="exp_return">Retour</string>
+    <string name="all_jobs">Tous les emplois</string>
+    <string name="exp_indicate">Indiquez votre experience</string>
+    <string name="exp_without">Sans</string>
+    <string name="exp_year1">&lt; 1 an</string>
+    <string name="exp_year1_2">1&#8211;2 ans</string>
+    <string name="exp_year3_4">3&#8211;4 ans</string>
+    <string name="exp_year5">5 ans+</string>
+    <string name="year">an</string>
+    <string name="years">ans</string>
+    <string name="years_plus">ans+</string>
+    <string name="exp_pos_held">POSTE OCCUPE</string>
+    <string name="exp_comp_name">NOM DE L\'ENTREPRISE</string>
+    <string name="exp_desc">DESCRIPTION</string>
+    <string name="activity_area">Secteur d\'activite</string>
+    <string name="activity_kitchen_cat">Cuisine  &#8211; Restauration</string>
+    <string name="activity_room_service">Salle &#8211; Service</string>
+    <string name="activity_hotel_accom">Hôtellerie &#8211; Hébergement</string>
+    <string name="pos_held_baker">Boulanger</string>
+    <string name="pos_held_project_man">Charge(e) de projet evenem</string>
+    <string name="pos_held_chef_coll_rest">Chef cuisinier (rest. collective)</string>
+    <string name="pos_held_tl_coll_rest">Chef d\'equipe (rest. collective)</string>
+    <string name="pos_held_tl_fast_rest">Chef d\'equipe (rest. rapide)</string>
+    <string name="pos_held_chef">Chef de cuisine</string>
+    <string name="pos_held_head_of_party">Chef de partie</string>
+    <string name="remove">x Supprimer</string>
+    <string name="remove2">Supprimer</string>
+    <string name="gallery">Galerie</string>
+    <string name="ed_photo">+ Photo</string>
+    <string name="delete_photo">x Supprimer la photo</string>
+    <string name="add_desc">Ajouter une description ?</string>
+    <string name="external_storage_perm_mess">Veuillez accorder l\'autorisation d\'accéder à la Galerie.</string>
+    <string name="camera_external">Veuillez accorder l\'autorisation d\'accéder à la caméra.</string>
+
+    <string name="tranning_empty_message">S’il vous plaît sélectionnez votre formation.</string>
+    <string name="username_empty_message">Le nom d\'utilisateur ne peut pas être vide.</string>
+    <string name="password_empty_message">Le mot de passe ne peut pas être vide.</string>
+    <string name="firstName_empty_message">Le prénom ne peut pas être vide.</string>
+    <string name="name_empty_message">Le nom ne peut pas être vide.</string>
+    <string name="enterprise_empty_message">Le nom de l\'entreprise ne peut pas être vide.</string>
+    <string name="location_empty_message">L\'emplacement ne peut pas être vide.</string>
+    <string name="email_empty_message">Le courrier électronique ne peut pas être vide.</string>
+    <string name="email_invalid_message">Email invalide.</string>
+    <string name="enter_mobile_number">Entrez le numéro de téléphone portable.</string>
+    <string name="enter_code">Entrez le code.</string>
+    <string name="invalid_url">Url invalide.</string>
+    <string name="set_date">Régler la date</string>
+    <string name="cancel">Annuler</string>
+    <string name="internal_storage">internal_storage</string>
+    <string name="declared">Sélectionner</string>
+    <string name="password_length">La longueur du mot de passe doit être de 6 chiffres</string>
+
+    <string name="francies">Français</string>
+    <string name="anglais">Anglais</string>
+    <string name="espagnol">Espagnol</string>
+    <string name="allemand">Allemand</string>
+    <string name="portgal">Portugais</string>
+    <string name="china">Chinois</string>
+    <string name="japnise">Japonais</string>
+    <string name="arabic">Arabe</string>
+    <string name="russia">Russe</string>
+    <string name="hindi">Hindi</string>
+
+    <string-array name="array_pos_held">
+        <item>@string/pos_held_baker</item>
+        <item>@string/pos_held_project_man</item>
+        <item>@string/pos_held_chef_coll_rest</item>
+        <item>@string/pos_held_tl_coll_rest</item>
+        <item>@string/pos_held_tl_fast_rest</item>
+        <item>@string/pos_held_chef</item>
+        <item>@string/pos_held_head_of_party</item>
+    </string-array>
+
+    <string name="no_diploma">Sans diplôme</string>
+    <string name="youth_training">CAP</string>
+    <string name="vocational_training">BEP</string>
+    <string name="bp">BP</string>
+    <string name="high_school">Bac</string>
+    <string name="high_school_profess_training">Bac Pro</string>
+    <string name="higher_diploma">BTS</string>
+    <string name="higher_edu">DUT</string>
+    <string name="bachelor">Licence</string>
+    <string name="master">Master et +</string>
+    <string name="other">Autre</string>
+    <string name="kilo_metter">Km</string>
+
+    <string name="receive_notifications">Recevoir notifications</string>
+    <string name="receiveemails">Recevoir emails</string>
+    <string name="give_my_opinion">Donner mon opinion</string>
+    <string name="terms_of_use">Termes légaux</string>
+    <string name="terms_of_use2">Conditions d\'utilisation</string>
+    <string name="condition">Conditions d\'utilisation</string>
+    <string name="faq">FAQ</string>
+    <string name="sign_out">Déconnexion</string>
+    <string name="your_opinion_matters_to_us">Votre avis nous intéresse !</string>
+    <string name="contact_us_by_email_to_help_us_improve_the_application">Contactez-nous par mail pour nous aider à améliorer l\'application.</string>
+    <string name="send_email">Envoyer email</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="find_answers_to_your_questions_below">Trouvez les réponses à vos \n questions ci-dessous</string>
+    <string name="hint_text_lookfor">Mot clé (ex : serveur, cuisinier, …)</string>
+    <string name="edit">Modifier</string>
+    <string name="apply">Postuler</string>
+
+    <string name="pole_emploi">pole-emploi</string>
+
+    <string name="more_information">+ d\'information</string>
+    <string name="filters">Filtres</string>
+    <string name="restauration_catering">Cuisine</string>
+    <string name="service">Salle</string>
+    <string name="search">Rechercher</string>
+    <string name="hotel">Hôtellerie - Hébergement</string>
+    <string name="filter_pluse">+ Filtres</string>
+
+    <string name="type_of_contract">Type de contrat</string>
+    <string name="level_of_education">Niveau de formation</string>
+    <string name="full_part_time">Temps plein/partiel</string>
+    <string name="experience">Expérience</string>
+    <string name="settings">Paramètres</string>
+    <string name="distance">Distance</string>
+
+    <string name="search_hint">Mot clé (ex : serveur, cuisinier, …)</string>
+    <string name="cancels">Annuler</string>
+    <string name="application_sent">Votre candidature est envoyée !</string>
+    <string name="application_message">L\'entreprise dispose d\'un délai de 48 heures pour vous répondre avant que votre candidature n\'expire.</string>
+    <string name="good_luck_message">Bonne chance et merci d\'utiliser</string>
+    <string name="continue_my_search">Continuer ma recherche</string>
+    <string name="goto_my_profile">Aller à mon profil</string>
+    <string name="company_activity">ACTIVITÉ DE L\'ENTREPRISE</string>
+    <string name="offer_posted_on">Offre publiée le </string>
+    <string name="company_location">LOCALISATION DE L\'ENTREPRISE</string>
+    <string name="company_website">SITE WEB DE L\'ENTREPRISE</string>
+    <string name="share_offer">PARTAGER CETTE OFFRE</string>
+    <string name="report_inappropriate_content">SIGNALER UN CONTENU INAPPROPRIÉ</string>
+    <string name="active_application">Votre candidature est active pour 48h. Vous recevrez une réponse en restant connecté à votre compte.</string>
+    <string name="applied_offer">Vous avez postulé à cette offre.</string>
+    <string name="applied_job_offer">Vous avez postulé à  l\'offre.</string>
+    <string name="appl_not_accepted">Votre candidature n\'a pas été retenue.</string>
+    <string name="pre_selected">Votre candidature a été préselectionnee.\nVous pouvez commencer un chat avec le recruteur.</string>
+    <string name="getting_location">Obteniring Emplacement</string>
+    <string name="already_apply">Déjà postulé</string>
+    <string name="subject">Signaler un contenu</string>
+    <string name="reason_of_your_message">Merci d\'indiquer les raisons de votre message :</string>
+    <string name="reoprt_content">Signalement : Contenu inapproprié</string>
+    <string name="report_id">ID du signalement :</string>
+    <string name="user">Utilisateur :</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="about">À propos</string>
+    <string name="account_owner">Titulaire du compte</string>
+    <string name="active">Actif il y a </string>
+    <string name="company_location_small">Localisation de l\'entreprise</string>
+    <string name="company_website_small">Site web de l\'entreprise</string>
+    <string name="job_offers">Offres de l\'entreprise</string>
+    <string name="video">Vidéo</string>
+
+    <string name="chat">Chat</string>
+    <string name="welcome_chat">Bienvenue dans le chat</string>
+    <string name="intratct_live">Échangez en direct avec les recruteurs !</string>
+    <string name="intratct_live2">Échangez en direct avec les candidats !</string>
+    <string name="guide">Mode d\'emploi</string>
+    <string name="apply_to_job_offer">Postulez à une offre</string>
+    <string name="apply_to_job_offer2">Publiez  une offre</string>
+    <string name="recruiter_interest">Le candidat est intéressé et vous présélectionne</string>
+    <string name="recruiter_interest2">Le candidat est intéressé et postule à l\'offre</string>
+    <string name="start_chat_recruiters">Une fois présélectionné vous pouvez débuter un chat ici avec le  recruteur</string>
+    <string name="start_chat_recruiters2">Une fois sélectionné vous pouvez débuter un chat ici avec le  candidat</string>
+    <string name="search_for_a_job">Rechercher un emploi</string>
+
+    <string name="my_offers">Mes Offres</string>
+    <string name="not_applied_job_offers">Vous n’avez postulé à aucune offre</string>
+    <string name="find_the_offers">Retrouvez ici les offres auxquelles vous avez postulé</string>
+    <string name="time_remaining_expiry">Le délai restant avant l’expiration de votre candidature est indiqué</string>
+    <string name="countdown_stop">Le décompte ne s’écoule pas durant les weekends</string>
+    <string name="received_msg">Vous avez reçu un message.</string>
+    <string name="preselected">Vous avez été présélectionné.</string>
+    <string name="have_applied">Vous avez postulé.</string>
+    <string name="application_accepted">Votre candidature n\'a pas été retenue.</string>
+    <string name="your_are_hired">Vous avez été embauché.</string>
+    <string name="application_expire">Votre candidature a expirée.</string>
+
+    <string name="there_is">il y a </string>
+    <string name="minutes">minutes</string>
+    <string name="hours">heures</string>
+    <string name="seconds">secondes</string>
+    <string name="send">ENVOI</string>
+    <string name="new_message">Nouveau message</string>
+    <string name="online">En ligne</string>
+    <string name="offline">Déconnecté</string>
+    <string name="applied_to">Vous avez postulé à</string>
+    <string name="location">Localisation</string>
+    <string name="location_empty">L\'emplacement est vide.</string>
+    <string name="take_picture">Prendre une photo</string>
+    <string name="choose_gallery">Choisir dans la galerie</string>
+    <string name="video_length_message">Enregistrez ou sélectionnez une vidéo d\'<b>1 minute maximum</b> pour vous présenter aux recruteurs</string>
+    <string name="video_size_message">Enregistrez ou sélectionnez une vidéo d\'<b>8 MB maximum</b> pour vous présenter aux recruteurs</string>
+    <string name="take_video">Prendre une vidéo</string>
+
+    <string name="company_name">Nom de l\'entreprise</string>
+    <string name="terms_cond">conditions d\'utilisation</string>
+    <string name="company_photo">+ PHOTO ENTREPRISE</string>
+    <string name="publish_your_job_offer">Publiez votre offre d\'emploi et\n trouvez le bon candidat en\n quelques secondes</string>
+    <string name="facebook_signup_message">En conformité avec la réglementation Européenne, merci de renseigner les informations ci-dessous et d’accepter les conditions d’utilisation.
+    </string>
+    <string name="post">PUBLIER</string>
+    <string name="welcome_to">Bienvenue sur</string>
+    <string name="publish_job_msg">Vous pouvez dès maintenant\n publier votre première\n offre d\'emploi !</string>
+    <string name="post_job">Publier une offre</string>
+    <string name="view_online_candidate">Voir les candidats connectés </string>
+
+    <string name="job_offer">Offre d\'emploi</string>
+    <string name="bob_title">Indiquez ou sélectionnez le poste</string>
+    <string name="language_indicator">Indiquez le langage de l\'Offre</string>
+    <string name="job_offered">Poste proposé</string>
+    <string name="add_photo">Ajoutez une photo</string>
+    <string name="level_education">Niveau</string>
+    <string name="formation">Formation :</string>
+    <string name="loc_of_job">Localisation de l\'offre</string>
+    <string name="complete_job_offer">Cliquez pour compléter votre offre</string>
+    <string name="duration">Durée</string>
+    <string name="num_of_hours">Nombre d\'heures</string>
+    <string name="salary">Salaire</string>
+    <string name="start_date">Date de début</string>
+    <string name="start_date2">Date de début:</string>
+    <string name="addi_desc">Description complémentaire</string>
+    <string name="addi_desc_optional">Ajoutez une description (facultatif)</string>
+    <string name="mode_of_contract">Mode de contact</string>
+    <string name="select_mode_contact">Sélectionnez votre mode de contact préféré</string>
+    <string name="contract_start_date">Indiquez la date de début du contrat </string>
+    <string name="bonjob_app">BonJob Chat</string>
+    <string name="phone">Téléphone</string>
+    <string name="email">Email</string>
+    <string name="overview">Aperçu</string>
+    <string name="publish">Publier</string>
+    <string name="contact">Contact :</string>
+    <string name="enter_number">Indiquez un numéro</string>
+    <string name="enter_email">Indiquez une adresse mail</string>
+
+    <string name="fixed_term_contract">CDD</string>
+    <string name="permanent_contract">CDI</string>
+    <string name="intrim">Intérim</string>
+    <string name="apprenticeship">Apprentissage</string>
+    <string name="internship">Stage/Alternance</string>
+    <string name="franchise">Franchise/Indépendant</string>
+
+    <string name="job_title">Poste recherché :</string>
+    <string name="contract">Contrat :</string>
+    <string name="lvl_edu">Niveau :</string>
+    <string name="exp">Expérience :</string>
+    <string name="dur">Durée :</string>
+    <string name="num_hours">Nombre d\'heures :</string>
+    <string name="sal">Salaire :</string>
+    <string name="strt_date">Date de début :</string>
+
+    <string name="submit">Soumettre</string>
+    <string name="forgot_pwd">Mot de passe oublié</string>
+    <string name="plz_wait">Chargement en cours</string>
+    <string name="compress_vid">Compresser la vidéo ...</string>
+    <string name="compression_success">Compression avec succès!</string>
+
+    <string name="select_pos_held">Sélectionner la position détenue</string>
+    <string name="company_name_err">Entrez le nom de l\'entreprise</string>
+    <string name="desc_err">Entrez la description</string>
+    <string name="required">Champs obligatoires</string>
+    <string name="msg_type_of_contract">Le type de contrat ne peut pas être vide</string>
+    <string name="retry">Recommencez</string>
+    <string name="i_am_recruiter">Je suis un recruteur</string>
+
+    <string name="create_recruiter_acc">Vous entrez dans l’espace \nRecruteur</string>
+
+
+
+
+    <!---->
+    <string name="click_recruiter_btn">Merci de confirmer en \ncliquant sur le bouton</string>
+    <string name="declared_language">Selectioner Langues</string>
+    <string name="terms_condition_msg">Veuillez accepter les termes et conditions.</string>
+
+    <string name="offer_publish">Votre offre a été publiée</string>
+    <string name="offer_publish1">Que se passe-t-il ensuite ?</string>
+    <string name="offer_publish3">Vous pouvez accéder aux
+candidatures en cliquant sur
+le bouton « Voir mes offres »
+ci-dessous ou sur le Menu
+« MES OFFRES ».</string>
+    <string name="offer_publish2">Les Candidats peuvent dès à
+présent postuler à votre offre.</string>
+
+
+
+
+
+    <string name="view_my_offer">Voir mes offres</string>
+    <string name="get_to_my_profile">Accéder à mon profil</string>
+    <string name="candidate">Candidats</string>
+    <string name="selected">Sélectionnés</string>
+    <string name="hired">Embauchés</string>
+    <string name="modify_offer">Modifier l\'offre</string>
+    <string name="close_order">Fermer l\'offre</string>
+    <string name="skills">COMPÉTENCES</string>
+    <string name="skills_smalls">Compétences</string>
+    <string name="non_show">Non Renseigné</string>
+    <string name="offer_validation">Vous pouvez éditer cette offre dans le menu MES OFFRES
+</string>
+    <string name="verify_number_msg">Par mesure de sécurité et pour valider votre profil Recruteur, merci de vérifier votre numéro de téléphone</string>
+    <string name="number_not_shared">Votre numéro est confidentiel et ne sera pas partagé.</string>
+    <string name="click_verify_msg">Cliquez sur Vérifier pour recevoir votre code par sms.</string>
+    <string name="verify">Vérifier</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="enter_num_msg">Indiquez votre numéro de téléphone pour recevoir votre code par sms</string>
+    <string name="enter_num">Indiquez un numéro</string>
+    <string name="france">France</string>
+
+    <string name="country_code">Indicatif Pays</string>
+    <string name="country">Indicatif</string>
+    <string name="receive_code_sms">Indiquez votre numéro de téléphone pour recevoir votre code par sms</string>
+    <string name="validate">Vérifier</string>
+
+    <string name="validat">Valider</string>
+
+
+    <string name="varification_code">Code de vérification</string>
+    <string name="enter_your_code">Entrez votre code</string>
+    <string name="resend_your_code">Renvoyer le code</string>
+    <string name="enter_the_code">Entrez le code</string>
+    <string name="confirm">Confirmer</string>
+    <string name="business_verified_success">Votre compte professionnel a été vérifié avec succès !</string>
+    <string name="offer_published">Votre offre a été publiée</string>
+    <string name="search_keywords">Recherche par mots-clés</string>
+    <string name="ex_keywords">Ex : apprenti, serveur, cuisinier…</string>
+    <string name="targeted_search">Recherche ciblée par clics</string>
+
+    <string name="target_search">Recherche ciblée</string>
+    <string name="location_candidate">Localisation du candidat</string>
+    <string name="click_Select_criteria">Cliquez pour choisir vos critères</string>
+    <string name="compétences">Compétences</string>
+    <string name="diploma">Diplôme</string>
+    <string name="current_status">Statut actuel</string>
+    <string name="find">Trouver</string>
+
+    <string name="no_candidate_waiting_moment">Pas de candidats en attente pour l\'instant</string>
+    <string name="no_candidate_selected_moment">Pas de candidats  sélectionnés pour l\'instant</string>
+    <string name="no_candidate_hired_moment">Pas de candidats  embauchés pour l\'instant</string>
+    <string name="no_post_job">Pas d\'offres d\'emploi pour l\'instant</string>
+
+    <string name="search_for_candidate">Rechercher des candidats</string>
+    <string name="post_a_job">Publier une offre d\'emploi</string>
+    <string name="archieve_offers">Offres archivées</string>
+    <string name="renew">Renouveler</string>
+    <string name="archieve_candidate">Candidats archivés</string>
+    <string name="select_this_candidate">Sélectionner ce candidat</string>
+    <string name="not_selected">Non retenu(e)</string>
+    <string name="hirede">Embauché(e)</string>
+    <string name="chatter">Chatter</string>
+    <string name="hire">Embaucher</string>
+    <string name="company">ENTREPRISE</string>
+    <string name="company_photos">PHOTO ENTREPRISE</string>
+    <string name="company_category">CATÉGORIE D\'ENTREPRISE</string>
+    <string name="num_of_employee">NOMBRE DE SALARIÉS</string>
+    <string name="website">SITE WEB</string>
+    <string name="company_category2">Catégorie d\'entreprise</string>
+    <string name="restaurent">Restaurant</string>
+    <string name="hotel_restaurznt">Hôtel / Restaurant</string>
+    <string name="cafe">Café, Bar, Brasserie</string>
+    <string name="nightclub">Discothèque, Casino</string>
+    <string name="therepy">Thalassothérapie</string>
+    <string name="caterer">Traiteur</string>
+    <string name="num_salary">Nombre de salariés</string>
+    <string name="ten_sal">1&#8211;10 salariés</string>
+    <string name="fifty_sal">10&#8211;50 salariés</string>
+    <string name="hundred_sal">50&#8211;100 salariés</string>
+    <string name="hundred_plus_sal">100+ salariés</string>
+
+    <string name="sal1">A discuter</string>
+    <string name="sal2">Smic horaire</string>
+    <string name="sal3">10 €/heure</string>
+    <string name="sal4">12 €/heure</string>
+    <string name="sal5">14 €/heure</string>
+    <string name="sal6">16 €/heure</string>
+    <string name="sal7">18 €/heure</string>
+    <string name="sal8">20 €/heure</string>
+    <string name="sal9">22 €/heure</string>
+    <string name="sal10">25 €/heure</string>
+    <string name="sal11">30 €/heure</string>
+    <string name="sal12">+30 €/heure</string>
+
+    <string name="no">Sans</string>
+    <string name="exp1">Sans expérience</string>
+    <string name="exp2">Moins d\'1 an</string>
+    <string name="exp3">1&#8211;2 ans</string>
+    <string name="exp4">3&#8211;4 ans</string>
+    <string name="exp5">5 ans +</string>
+
+    <string name="num_hour1">Temps plein</string>
+    <string name="num_hour2">&lt; 10h/semaine</string>
+    <string name="num_hour3">10h/semaine</string>
+    <string name="num_hour4">15h/semaine</string>
+    <string name="num_hour5">20h/semaine</string>
+    <string name="num_hour6">25h/semaine</string>
+    <string name="num_hour7">30h/semaine</string>
+
+    <string name="of_experience">d\' experience</string>
+    <string name="mobile_emp_msg">LA SOLUTION EMPLOI \n DE L\'HÔTELLERIE \n RESTAURATION</string>
+    <string name="candidate_applied_job">Le candidat a postulé à l\'offre</string>
+    <string name="no_result_found">Aucun résultat trouvé.</string>
+    <string name="for_partTime">pour temps partiel</string>
+    <string name="for_fullTime">pour temps plein</string>
+    <string name="week">semaine</string>
+    <string name="experience_in">expérience in</string>
+    <string name="appreciated">rapide appreciee.</string>
+    <string name="select_date">Sélectionnez la date</string>
+    <string name="select_one_more_filter">Sélectionnez un ou plusieurs filtres</string>
+    <string name="app_expire">Candidature expirée</string>
+    <string name="candidacy_expired">Votre candidature a expiré.</string>
+
+    <string name="select_contract">S’il vous plaît sélectionné Type de contrat</string>
+    <string name="select_education_lvl">sélectionné Niveau</string>
+    <string name="select_experience">S’il vous plaît sélectionnez votre expérience</string>
+    <string name="select_language">sélectionné Langues</string>
+    <string name="select_num_hour">S’il vous plaît sélectionné Nombre d\'heures</string>
+    <string name="select_salary">S’il vous plaît sélectionné Salaire</string>
+
+    <string name="error_something_went_wrong">Quelque chose a mal tourné!</string>
+    <string name="error_network_unavailable">Réseau non disponible.</string>
+    <string name="error_conn_timeout">Délai de connection dépassé.</string>
+    <string name="error">Erreur</string>
+    <string name="internet_connection">Une connexion Internet est nécessaire pour utiliser l\'application.</string>
+
+    <string name="message_vid1">Enregistrez un pitch vidéo de moins d’1 minute et maximisez vos chances d’être sélectionné !</string>
+    <string name="few_tips">Quelques conseils</string>
+    <string name="mess1">Choisissez un endroit calme et un fond neutre</string>
+    <string name="mess2">Portez une tenue appropriée </string>
+    <string name="mess3">Soyez clair et précis</string>
+    <string name="mess4">Présentez vos principales compétences ou motivations</string>
+    <string name="mess5">Soyez à l’aise et souriez !</string>
+    <string name="remove_confirm">Voulez-vous supprimer?</string>
+    <string name="language">Langues :</string>
+    <string name="reject">Refuser</string>
+    <string name="accepter">Accepter</string>
+    <string name="discover_job">Découvrez cette offre d\'emploi sur BonJob</string>
+    <string name="whatsapp_not_installed">WhatsApp n\'a pas été installé.</string>
+    <string name="post_job_offer_message">Vous n\'avez aucun Emploi actif, veuillez d\'abord publier un travail</string>
+    <string name="sent_mail">Envoyer un mail...</string>
+    <string name="no_active_job_mesg">Vous  n\'avez  pas  d’offre  d’emploi  active.</string>
+    <string name="plz_select_offer_msg">Veuillez  d\'abord  publier une  offre  d’emploi  afin  de  sélectionner  des  candidats  pour  votre  offre.</string>
+    <string name="language_taken">Déjà pris cette langue.</string>
+    <string name="fill_profile_msg">Remplissez votre profil avant de poster un travail.</string>
+    <string name="fill_pop_msg1">Sélectionnez le poste</string>
+
+    <string name="fill_pop_msg2">Indiquez le poste pour lequel vous souhaitez sélectionner ce candidat :
+</string>
+
+    <string name="find_candidate">Trouver des candidats</string>
+    <string name="try_free">Essayez gratuitement et sans engagement :</string>
+    <string name="one_job_offer">1 offre d\'emploi</string>
+    <string name="one_target_search">1 sélection de candidat</string>
+    <string name="subscription">Abonnement</string>
+    <string name="choose_subscription">Choisissez votre abonnement \npour obtenir un accès illimité</string>
+    <string name="find_cand_msg">Trouvez des candidats, publiez \nvos offres, discutez en direct... </string>
+    <string name="thank_confidence_msg">Merci de votre confiance </string>
+    <string name="subscribe_to">Vous êtes abonné à : </string>
+    <string name="subscription_expire_on">Votre abonnement expire le :</string>
+    <string name="terminate">Résilier</string>
+    <string name="cancel_subscription_msg">Êtes-vous certain de vouloir résilier votre abonnement ?</string>
+    <string name="cancel_subscription_accessabilty">En annulant votre abonnement, vous n\'aurez plus accès aux services suivants : \nRecherche de candidats, dossier Mes offres, Chat, publication d\'offres d\'emploi. </string>
+
+    <string name="empty_card_msg">Le numéro de carte ne peut pas être vide.</string>
+    <string name="empty_ex_date_msg">La date d\'expiration ne peut pas être vide.</string>
+    <string name="invalid_ex_date">Date d\'expiration invalide</string>
+    <string name="empty_cvc_msg">Cvc ne peut pas être vide.</string>
+    <string name="invalid_card_number">numéro de carte invalide</string>
+    <string name="invalid_cvc">Cvc invalide</string>
+
+    <string name="your_card_number">VOTRE NUMÉRO DE CARTE</string>
+    <string name="expiry">EXP   MM/YY</string>
+    <string name="code_cvc">CODE CVC</string>
+    <string name="validate_payment">Valider le paiement</string>
+    <string name="email_caps">EMAIL</string>
+    <string name="code_postal">CODE POSTAL</string>
+    <string name="email_to_invoice_msg">Vous recevrez une facture par email </string>
+    <string name="enter_info_msg">Merci d\'indiquer vos informations</string>
+    <string name="bank_card">Carte bancaire </string>
+    <string name="you_selected">Vous avez sélectionné</string>
+    <string name="choose_plan">Choisissez votre abonnement \npour obtenir un accès illimité</string>
+    <string name="find_candidate_msg">Trouvez des candidats, publiez \n vos offres, discutez en direct...</string>
+    <string name="click_on_choice_payment">Cliquez sur votre choix pour être redirigé vers le module de paiement</string>
+    <string name="position_indicate">Indiquez le poste pour lequel vous souhaitez sélectionner ce candidat :</string>
+    <string name="month">mois</string>
+    <string name="euro">€</string>
+
+    <string name="empty_postal_code">Le code postal ne peut pas être vide</string>
+
+    <string name="payment_processing_message">Veuillez patienter, votre paiement est en cours de traitement ...</string>
+    <string name="redirect_payment_module">Cliquez ici pour être regirigé vers le module de paiement : </string>
+    <string name="to_contact_us">Pour nous contacter :</string>
+    <string name="title_activity_pole_emploi_redirect_url">PoleEmploiRedirectUrl</string>
+
+    <string name="hint_search_user">Rechercher un utilisateur</string>
+    <string name="message_no_search_result_found">Aucun résultat de recherche trouvé.</string>
+    <string name="no_company_added">Aucune entreprise ajoutée</string>
+
+    <string name="blocked_msg">Voulez-vous débloquer I\' utilisateur?</string>
+    <string name="un_blocked_msg">Voulez-vous bloquer l\'utilisateur?</string>
+    <string name="blocked_msg_user">Bloqué par l\'utilisateur</string>
+    <string name="block_msg">Utilisateur bloqué</string>
+    <string name="block">Bloquer</string>
+    <string name="ub_block">Débloquer</string>
+    <string name="delete_msg">Voulez-vous supprimer le message?</string>
+
+    <string name="type_a_message">Tapez un message</string>
+    <string name="delete">effacer</string>
+    <string name="blocked">bloqué</string>
+    <string name="blocked_title">Cet utilisateur est bloqué</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="room_status">status</string>
+    <string name="error_retrieving_access_token">Error retrieving token</string>
+    <string name="log_out">Log Out</string>
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for additional functionality.</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="codec_title">Set your preferred audio and video codec. Not all codecs are supported with Group rooms. The media server will fallback to OPUS or VP8 if a preferred codec is not supported.</string>
+    <string name="pref_title_audio_codec">Audio Codec</string>
+    <string name="pref_title_video_codec">Video Codec</string>
+    <string name="sender_bandwidth_constraints">Set sender bandwidth constraints. Zero represents the WebRTC default value which varies by codec.</string>
+    <string name="max_audio_bitrate">Max Audio Bitrate (bits per second)</string>
+    <string name="max_video_bitrate">Max Video Bitrate (bits per second)</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="vp8_simulcast">VP8 Simulcast</string>
+
+
+    <string name="Picture">Envoyer une image</string>
+    <string name="videos">Envoyer une vidéo</string>
+    <string name="video_call">appel vidéo</string>
+    <string name="file">Envoyer un fichier</string>
+    <string name="typing">En train d\'écrire...</string>
+    <string name="block_user">bloqué par l\'utilisateur</string>
+    <string name="msg_apply">Le candidat a postule à l\'offre</string>
+    <string name="msg_types">ApplyJob</string>
+    <string name="block_title">Veuillez confirmer</string>
+    <string name="msg_welcome_back">Bienvenue sur BonJob. N\'hésitez pas à nous contacter</string>
+
+    <!--
+    <string name="block">block</string>
+    <string name="blocked">blocked</string>
+    <string name="un_blocked_msg">Unblocked</string>
+    <string name="ub_block">Unblock</string>
+    <string name="blocked_msg">blocked_msg</string>
+    <string name="delete">delete</string>
+    <string name="delete_msg">delete_msg</string>-->
+</resources>

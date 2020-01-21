@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@color/text_color">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/margin_half"
+        android:paddingRight="@dimen/margin_half">
+
+        <com.infoicon.bonjob.customview.CircleImageView
+            android:id="@+id/imgViewJob"
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_toRightOf="@+id/imgViewJob"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/linearLayout"
+                android:layout_toStartOf="@+id/linearLayout"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    app:textAllCaps="true"
+                    android:textSize="@dimen/text_size_22"
+                    android:padding="@dimen/margin_half"
+                    android:text="SERVEUR H/F - 20H/SEM"
+                    android:textColor="@color/black"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvCurrentStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/default_margin"
+                    android:enabled="false"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_half"
+                    android:text="@string/salary"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="@dimen/default_margin"
+                android:enabled="false"
+                android:padding="@dimen/margin_half"
+                android:text="3+ ans d' experience"
+                android:textColor="@color/black"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvJobTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvExperience"
+                android:paddingTop="@dimen/default_margin"
+                android:paddingLeft="@dimen/margin_half"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:text="SERVEUR"
+                app:textAllCaps="true"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/margin_double"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:weightSum="2">
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/buttonNo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="1"
+            android:background="@drawable/round_button_pink"
+            android:text="@string/not_selected"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/white"
+            />
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/buttonHired"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:visibility="invisible"
+            android:background="@drawable/round_button_blue"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/hirede"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

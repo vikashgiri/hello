@@ -1,0 +1,10 @@
+<com.infoicon.bonjob.customview.CustomsTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:maxLines="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:background="@drawable/spinner_item_divider"
+    android:padding="@dimen/margin_half"
+    android:ellipsize="marquee"/>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:clickable="true"
+                android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_edit_profile"/>
+
+    <com.infoicon.bonjob.customview.CustomsTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        android:text="@string/job_offer"
+        android:textColor="@color/blue_color"
+        android:textSize="@dimen/text_size_medium"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_toLeftOf="@+id/imageViewFilter"
+        android:background="@drawable/border_transparent">
+
+        <com.infoicon.bonjob.customview.CustomEditText
+            android:id="@+id/edSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/footer_search_deactive"
+            android:drawablePadding="@dimen/default_margin"
+            android:ellipsize="end"
+            android:hint="@string/search"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:padding="@dimen/default_margin"
+            android:text=""
+            android:textColorHint="@color/text_color"
+            android:textSize="@dimen/text_size_normal"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeSearch"
+        android:layout_margin="@dimen/default_margin"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainLayouts"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        >
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/imageViewFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/blue_color"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/default_margin"
+            android:text="@string/filters"
+            />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeSearch"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/imageViewFilter"
+            android:background="@drawable/border_transparent">
+
+            <com.infoicon.bonjob.customview.CustomEditText
+                android:id="@+id/edSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/footer_search_deactive"
+                android:drawablePadding="@dimen/default_margin"
+                android:ellipsize="end"
+                android:hint="@string/search_hint"
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:textColorHint="@color/text_color"
+                android:textSize="@dimen/text_size_normal"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewKeywords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:background="#ffffff">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tvEditLocation"
+            android:layout_toStartOf="@+id/tvEditLocation"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="@dimen/default_margin"
+            android:drawableStart="@drawable/location"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/black"
+            />
+
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/tvEditLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/distance_trasparent"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:textColor="@color/blue_color"
+            android:layout_marginRight="@dimen/default_margin"
+            android:text="@string/distance"></com.infoicon.bonjob.customview.CustomsButton>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:visibility="visible"
+        android:background="#ffffff">
+
+        <SeekBar
+            android:id="@+id/select_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumbTint="@color/blue_color"
+            android:layout_toLeftOf="@+id/distance"
+            android:tickMarkTint="@color/grey"
+            android:progressTint="@color/blue_color"
+            android:thumb="@drawable/custom_thumb"
+
+            android:layout_marginTop="5dp"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/distance"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/grey"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/tvDropDown"
+
+            android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewLookfor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_half"
+            android:background="#ffffff"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvNoResultFound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/no_result_found"
+            android:textSize="@dimen/margin_25"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

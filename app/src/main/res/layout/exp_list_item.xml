@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/margin_15"
+              android:layout_marginRight="@dimen/margin_15"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/three_side_border_green">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/textViewAns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:padding="@dimen/default_margin"
+            android:text=" the quick brown fox jumps over the lazy little dog the quick brown fox jumps over the lazy little dog."
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/text_size_normal"/>
+    </LinearLayout>
+
+
+</LinearLayout>

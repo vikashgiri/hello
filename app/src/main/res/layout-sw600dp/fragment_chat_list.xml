@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_single_title"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/border_transparent">
+
+        <com.infoicon.bonjob.customview.CustomEditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/footer_search_deactive"
+            android:drawablePadding="@dimen/default_margin"
+            android:drawableRight="@drawable/tw__composer_close"
+            android:ellipsize="end"
+            android:hint="@string/hint_search_user"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:padding="@dimen/default_margin"
+            android:textColorHint="@color/text_color"
+            android:textSize="@dimen/margin_25"
+            android:inputType="text" />
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/relativeSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include
+        layout="@layout/layout_default_chat_seeker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <include
+        layout="@layout/layout_default_chat_recruiter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlRetry"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvErrorMessage"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/margin_40"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:drawablePadding="@dimen/margin_double"
+            android:drawableTop="@drawable/sad"
+            android:padding="@dimen/default_margin"
+
+            android:text="Something went wrong"
+            android:layout_height="wrap_content"/>
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/btnRetry"
+            android:layout_below="@+id/tvErrorMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:padding="@dimen/margin_12"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginRight="@dimen/margin_100"
+            android:layout_marginLeft="@dimen/margin_100"
+            android:background="@drawable/round_button_pink"
+            android:text="@string/retry"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

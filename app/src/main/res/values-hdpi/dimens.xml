@@ -1,0 +1,37 @@
+<resources>
+
+    <dimen name="margin_1">1px</dimen>
+    <dimen name="margin_">3px</dimen>
+    <dimen name="default_margin">10px</dimen>
+    <dimen name="margin_half">5px</dimen>
+    <dimen name="margin_double">20px</dimen>
+    <dimen name="margin_8">8px</dimen>
+    <dimen name="margin_13">13px</dimen>
+    <dimen name="margin_15">15px</dimen>
+    <dimen name="margin_12">12px</dimen>
+    <dimen name="margin_25">25px</dimen>
+    <dimen name="margin_30">30px</dimen>
+    <dimen name="margin_35">35px</dimen>
+    <dimen name="margin_40">40px</dimen>
+    <dimen name="margin_45">45px</dimen>
+    <dimen name="margin_50">50px</dimen>
+    <dimen name="margin_60">60px</dimen>
+    <dimen name="margin_70">70px</dimen>
+    <dimen name="margin_80">80px</dimen>
+    <dimen name="margin_100">100px</dimen>
+    <dimen name="margin_320">320px</dimen>
+    <dimen name="margin_350">350px</dimen>
+    <dimen name="margin_400">400px</dimen>
+    <dimen name="margin_120">120px</dimen>
+    <dimen name="margin_140">140px</dimen>
+    <dimen name="margin_160">160px</dimen>
+    <dimen name="text_size_normal">20px</dimen>
+    <dimen name="text_size_22">22px</dimen>
+    <dimen name="text_size_medium">30px</dimen>
+
+    <dimen name="default_map_height">700px</dimen>
+    <dimen name="device_height">800px</dimen>
+    <dimen name="device_weight">480px</dimen>
+    <dimen name="device_weight_half">240px</dimen>
+    <dimen name="image_Size_big">260px</dimen>
+</resources>

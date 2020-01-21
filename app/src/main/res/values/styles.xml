@@ -1,0 +1,80 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="italicText">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <string name="AppTheme.TextAppearance.Bold" parent="AppTheme.TextAppearance"
+        translatable="false">
+         <item name="fontPath">assets/HelveticaNeueLTCom-LtEx.ttf</item>
+        <item name="android:textStyle">bold</item>
+    </string>
+
+    <style name="datepicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- custom loader  -->
+    <style name="CustomCompress" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/compress_vid</item>
+        <item name="DialogSpotColor">@color/blue_color</item>
+        <item name="DialogSpotCount">8</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- custom loader  -->
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/plz_wait</item>
+        <item name="DialogSpotColor">@color/blue_color</item>
+        <item name="DialogSpotCount">8</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="CustomPayment" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">@string/payment_processing_message</item>
+        <item name="DialogSpotColor">@color/blue_color</item>
+        <item name="DialogSpotCount">8</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/rbLookFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawablePadding="@dimen/margin_half"
+                android:drawableTop="@drawable/radio_search"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:text="@string/tabbar_look"
+                android:textAllCaps="true"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/default_margin"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/rbFolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawablePadding="@dimen/margin_half"
+                android:drawableTop="@drawable/radio_folder"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/tabbar_my_offer"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_margin"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/rbChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="@dimen/margin_half"
+                android:drawableTop="@drawable/radio_chat"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:text="@string/tabbar_chat"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_margin"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/textViewChatCount"
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:background="@drawable/item_chat"
+                android:gravity="center"
+                android:text="2"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/rbActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="@dimen/margin_half"
+                android:drawableTop="@drawable/radio_activity"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:text="@string/tabbar_active"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_margin"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/textViewActivityCount"
+                android:layout_width="@dimen/margin_30"
+                android:layout_height="@dimen/margin_30"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/margin_15"
+                android:layout_marginRight="@dimen/margin_15"
+                android:background="@drawable/item_chat"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/rbProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="@dimen/margin_half"
+                android:drawableTop="@drawable/radio_profile"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="@dimen/default_margin"
+                android:text="@string/tabbar_profile"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_margin"/>
+        </RelativeLayout>
+
+    </RadioGroup>
+</LinearLayout>

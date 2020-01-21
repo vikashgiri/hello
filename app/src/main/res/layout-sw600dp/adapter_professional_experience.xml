@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="@dimen/default_margin"
+        android:orientation="vertical">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_60"
+            android:text="@string/profilefirstcell_proj_man"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_25"
+            />
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/tvEvenormoandie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_60"
+            android:text="@string/profilefirstcell33"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_25"
+            android:textStyle="italic"/>
+
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/margin_60"
+            android:layout_marginTop="@dimen/margin_half"
+            android:text="@string/profilefirstcell34"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_25"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_ludovic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_half"
+            android:background="@drawable/dialog_shape"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin">
+
+            <ImageView
+                android:layout_width="@dimen/margin_350"
+                android:layout_height="@dimen/margin_80"
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_50"
+                android:layout_marginRight="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_double"
+                android:src="@drawable/header_logo"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:padding="@dimen/default_margin"
+                android:text="@string/choose_plan"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/margin_30"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:padding="@dimen/default_margin"
+                android:text="@string/find_candidate_msg"
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_30"/>
+
+
+
+            <!--<RelativeLayout
+                android:id="@+id/rlPlanMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginRight="@dimen/margin_double"
+                android:padding="@dimen/default_margin">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="1 Mois"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/margin_30"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="39.00€"
+                        android:textColor="@color/blue_color"
+                        android:textSize="@dimen/margin_30"/>
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" HT par mois"
+                        android:textColor="@color/blue_color"
+                        android:textSize="@dimen/text_size_22"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlPlanYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginRight="@dimen/margin_double"
+                android:padding="@dimen/default_margin">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="1 An"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/margin_30"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29.00€"
+                        android:textColor="@color/pink_color"
+                        android:textSize="@dimen/margin_30"/>
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" HT par mois"
+                        android:textColor="@color/pink_color"
+                        android:textSize="@dimen/text_size_22"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>-->
+
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="@dimen/margin_45"
+                android:layout_height="@dimen/margin_45"
+                android:visibility="gone"
+                android:layout_gravity="center"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewPlan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="start"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:padding="@dimen/default_margin"
+                android:text="@string/click_on_choice_payment"
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_25"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/imageViewClose"
+        android:layout_width="@dimen/margin_45"
+        android:layout_height="@dimen/margin_45"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/default_margin"
+        android:src="@drawable/close_btn_pink"/>
+
+</RelativeLayout>

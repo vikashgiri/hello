@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:id="@+id/rlChatDetails"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@color/text_color">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/margin_1">
+
+        <com.infoicon.bonjob.customview.CircleImageView
+            android:id="@+id/imgViewJob"
+            android:layout_width="@dimen/margin_120"
+            android:layout_height="@dimen/margin_120"
+            android:src="@drawable/default_photo_deactive"
+            android:paddingLeft="@dimen/margin_half"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_double"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/imgViewJob"
+            android:orientation="vertical">
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_half"
+                    android:layout_marginEnd="@dimen/margin_half"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_half"
+                    android:textSize="@dimen/margin_25"
+                    android:text="SERVEUR"
+                    android:textColor="@color/blue_color"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/textViewUnreadCount"
+                    android:layout_width="@dimen/margin_30"
+                    android:layout_height="@dimen/margin_30"
+                    android:background="@drawable/item_chat"
+                    android:gravity="center"
+                    android:text=""
+                    android:visibility="gone"
+                   android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/margin_half"
+                    android:layout_marginEnd="@dimen/margin_half"/>
+
+            </RelativeLayout>
+
+           <!-- <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:padding="@dimen/margin_half"
+
+                android:text="SERVEUR H/F - 20H/SEM"
+                android:textColor="@color/black"/>-->
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewAccountHolderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="@dimen/default_margin"
+                android:enabled="false"
+                android:padding="@dimen/margin_half"
+                android:textSize="@dimen/margin_25"
+                android:text="Christophe P"
+                android:textColor="@color/black"/>
+
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:gravity="right"
+                android:padding="@dimen/margin_half"
+                android:textSize="@dimen/margin_25"
+                android:text="23/3/2017 - 14:03"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

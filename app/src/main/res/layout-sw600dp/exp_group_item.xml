@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/default_margin"
+              android:layout_marginRight="@dimen/default_margin"
+              android:background="@color/transparent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_marginTop="@dimen/default_margin"
+        >
+
+        <RelativeLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_blue">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/textViewQues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_5sdp"
+                android:padding="@dimen/margin_double"
+                android:text="hello"
+                android:textColor="@color/white"
+                android:layout_toLeftOf="@+id/tvIndicator"
+                android:textSize="@dimen/margin_25"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_double"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_40"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

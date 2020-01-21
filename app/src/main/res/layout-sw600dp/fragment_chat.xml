@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true"
+    >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_chat"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/send_message_layout"
+        android:layout_below="@+id/toolbar"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:paddingTop="@dimen/default_margin"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_width="@dimen/margin_45"
+        android:layout_height="@dimen/margin_45"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:id="@+id/send_message_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:alpha=".5"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/app_name"
+            android:padding="2dp"
+            android:src="@drawable/close_btn_pink"
+            android:visibility="gone"/>
+
+        <com.infoicon.bonjob.customview.CustomEditText
+            android:id="@+id/et_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_half"
+            android:layout_weight="1"
+            android:background="@drawable/border_gray_edit"
+            android:hint="@string/new_message"
+            android:padding="@dimen/default_margin"
+            android:text=""
+            android:textSize="@dimen/text_size_normal"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColor="@color/black"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:background="@color/transparent"
+            android:padding="@dimen/margin_15"
+            android:textSize="@dimen/text_size_normal"
+            android:text="@string/send"
+            android:textColor="@color/blue_color"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

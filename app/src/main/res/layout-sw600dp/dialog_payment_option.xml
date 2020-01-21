@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/dialog_ludovic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/default_margin"
+                android:background="@color/transparent"
+                app:layout_goneMarginBottom="@dimen/margin_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_half"
+        android:background="@drawable/dialog_shape"
+        android:orientation="vertical"
+        android:padding="@dimen/default_margin">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/margin_half"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/you_selected"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/margin_25"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvSubscriptionPlan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abonnement 1 mois :"
+                        android:textColor="@color/black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/tvSubscriptionPlanPrice"
+                        android:textSize="@dimen/margin_25"/>
+
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvSubscriptionPlanPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="29.00€/mois"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_25"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlTotalHt"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total HT :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_25"/>
+
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvTotalHtPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="348.00€"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_25"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/default_margin"
+
+                    >
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total TTC :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_25"/>
+
+                    <com.infoicon.bonjob.customview.CustomsTextViewBold
+                        android:id="@+id/tvTotalTtcPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="78,00€"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/margin_25"/>
+
+                </RelativeLayout>
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:layout_marginTop="@dimen/margin_double"
+                    android:gravity="center"
+                    android:text="@string/enter_info_msg"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/margin_25"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_8"
+                    android:layout_marginRight="@dimen/margin_8"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:text="@string/email_to_invoice_msg"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_double"
+                    android:orientation="horizontal">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/blue_color">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edFName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/bar_color"
+                            android:hint="@string/profilesecondcell_first_name"
+                            android:imeOptions="actionNext"
+                            android:lines="1"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/blue_color">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edLName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/bar_color"
+                            android:hint="@string/profilesecondcell_name"
+                            android:imeOptions="actionNext"
+                            android:lines="1"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/blue_color">
+
+                    <com.infoicon.bonjob.customview.CustomEditText
+                        android:id="@+id/edEnterprise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/bar_color"
+                        android:drawablePadding="@dimen/margin_1"
+                        android:hint="@string/company"
+                        android:imeOptions="actionNext"
+                        android:lines="1"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/blue_color"
+                        android:textSize="@dimen/margin_25"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/blue_color">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edCodePostal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/bar_color"
+                            android:hint="@string/code_postal"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:lines="1"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/blue_color"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColorHint="@color/blue_color">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/bar_color"
+                            android:hint="@string/profilesecondcell_city"
+                            android:imeOptions="actionNext"
+                            android:lines="1"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/blue_color"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/blue_color">
+
+                    <com.infoicon.bonjob.customview.CustomEditText
+                        android:id="@+id/edEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/bar_color"
+                        android:hint="@string/email_caps"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/blue_color"
+                        android:textSize="@dimen/margin_25"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/margin_half"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/bank_card"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/margin_25"/>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.infoicon.bonjob.utils.textWatcher.CreditCardEditText
+                        android:id="@+id/edCardNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/bar_color"
+                        android:drawablePadding="@dimen/margin_1"
+                        android:gravity="center"
+                        android:hint="@string/your_card_number"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:lines="1"
+                        android:maxLength="16"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/text_color"
+                        android:textSize="@dimen/margin_25"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edExpiry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/bar_color"
+                            android:gravity="center"
+                            android:hint="@string/expiry"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:lines="1"
+                            android:maxLength="5"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/text_color"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.infoicon.bonjob.customview.CustomEditText
+                            android:id="@+id/edCvc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/bar_color"
+                            android:drawablePadding="@dimen/margin_1"
+                            android:gravity="center"
+                            android:hint="@string/code_cvc"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberDecimal"
+                            android:lines="1"
+                            android:maxLength="3"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/text_color"
+                            android:textSize="@dimen/margin_25"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnValidatePayment"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:padding="@dimen/margin_12"
+
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"
+                    android:layout_marginTop="@dimen/margin_double"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_pink"
+                    android:text="@string/validate_payment"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/margin_25"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewClose"
+        android:layout_width="@dimen/margin_45"
+        android:layout_height="@dimen/margin_45"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/default_margin"
+        android:src="@drawable/close_btn_pink"/>
+
+</RelativeLayout>

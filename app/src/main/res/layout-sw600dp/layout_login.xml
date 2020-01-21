@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/margin_350"
+            android:layout_height="@dimen/margin_80"
+            android:layout_marginTop="@dimen/margin_80"
+            android:layout_gravity="center"
+            android:background="@drawable/header_logo"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_double"
+            android:layout_marginRight="@dimen/margin_double"
+            android:layout_marginTop="@dimen/margin_70"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_40"
+                android:background="@color/transparent"
+                android:hint="@string/connection_email"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textSize="@dimen/margin_25"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:background="@color/text_color"/>
+
+            <EditText
+                android:id="@+id/edPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_double"
+                android:background="@color/transparent"
+                android:hint="@string/connection_password"
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="@dimen/margin_25"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:background="@color/text_color"/>
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/buttonLogin"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_50"
+                android:background="@drawable/round_button_pink"
+                android:layout_marginRight="@dimen/margin_40"
+                android:layout_marginLeft="@dimen/margin_40"
+                android:text="@string/login"
+                android:padding="@dimen/margin_12"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_25"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_40"
+                android:padding="@dimen/margin_double"
+                android:text="@string/connection_forgot"
+                android:textSize="@dimen/margin_25"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

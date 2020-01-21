@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginRight="@dimen/default_margin"
+    android:background="@color/text_color">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/default_margin"
+        android:paddingLeft="@dimen/margin_half"
+        android:paddingRight="@dimen/margin_half"
+        android:paddingTop="@dimen/default_margin">
+
+        <com.infoicon.bonjob.customview.CircleImageView
+            android:id="@+id/imgViewJob"
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/default_icon"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_toRightOf="@+id/imgViewJob"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/linearLayoutProgress"
+                android:layout_toStartOf="@+id/linearLayoutProgress"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_half"
+                    android:text="SERVEUR H/F - 20H/SEM "
+                    android:textColor="@color/black"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvCandidateStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="@dimen/default_margin"
+                    android:enabled="false"
+                    android:maxLines="1"
+                    android:padding="@dimen/margin_half"
+                    android:text="@string/non_show"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/progressTimer"
+                    android:layout_width="@dimen/margin_100"
+                    android:layout_height="@dimen/margin_double"
+                    app:rcBackgroundColor="@color/blue_color"
+                    app:rcBackgroundPadding="@dimen/margin_1"
+                    app:rcMax="100"
+                    app:rcProgress="0"
+                    app:rcProgressColor="@color/blue_color"
+                    app:rcRadius="@dimen/margin_half"
+                    app:rcReverse="false"
+                    app:rcSecondaryProgress="100"
+                    app:rcSecondaryProgressColor="@color/white"
+                    />
+
+
+                <!--  <ProgressBar
+                      android:id="@+id/progressTimer"
+                      android:layout_width="@dimen/margin_100"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentRight="true"
+                      style="?android:attr/progressBarStyleHorizontal"
+                      android:padding="@dimen/margin_half"
+                      android:progress="50"
+                      android:progressDrawable="@drawable/pregress"
+                      android:max="100"
+                      />-->
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_half"
+                    android:text="100%"
+                    android:textColor="@color/blue_color"/>
+
+
+            </LinearLayout>
+
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="@dimen/default_margin"
+                android:enabled="false"
+                android:padding="@dimen/margin_half"
+                android:text="@string/non_show"
+                android:textColor="@color/black"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

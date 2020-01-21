@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_double">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <com.infoicon.bonjob.customview.CustomRadioButton
+                android:id="@+id/rbWithout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_blue_left"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/exp_without"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <com.infoicon.bonjob.customview.CustomRadioButton
+                android:id="@+id/rbOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_blue_center"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/exp_year1"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <com.infoicon.bonjob.customview.CustomRadioButton
+                android:id="@+id/rbOneTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_blue_center"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/exp_year1_2"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <com.infoicon.bonjob.customview.CustomRadioButton
+                android:id="@+id/rbThreeFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_blue_center"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/exp_year3_4"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <com.infoicon.bonjob.customview.CustomRadioButton
+                android:id="@+id/rbFiveMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round_blue_right"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/default_margin"
+                android:paddingTop="@dimen/default_margin"
+                android:text="@string/exp_year5"
+                android:textSize="@dimen/text_size_normal"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearWithExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rlPostHeld"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:padding="@dimen/default_margin">
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/textViewPostHeldCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center|left"
+                    android:hint="category"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/blue_color"
+                    android:textSize="@dimen/margin_25"
+                    android:visibility="gone"
+                    />
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/textViewPostHeld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:drawableRight="@drawable/footer_search_active"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center|left"
+                    android:hint="@string/exp_pos_held"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/blue_color"
+                    android:textSize="@dimen/margin_25"
+                    />
+
+                <!-- <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:src="@drawable/footer_search_active"/>-->
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:background="@color/text_color"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:padding="@dimen/default_margin">
+
+                <EditText
+                    android:id="@+id/edCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:drawableEnd="@drawable/edit"
+                    android:drawableRight="@drawable/edit"
+                    android:hint="@string/exp_comp_name"
+                    android:textColorHint="@color/blue_color"
+                    android:textSize="@dimen/margin_25"/>
+
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/edit"/>-->
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:background="@color/text_color"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:padding="@dimen/default_margin"
+                android:text="@string/exp_desc"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/margin_25"/>
+
+
+            <EditText
+                android:id="@+id/edDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:background="@drawable/border_gray"
+                android:gravity="top"
+                android:lines="5"
+                android:maxLength="200"
+                android:textSize="@dimen/text_size_normal"
+                android:padding="@dimen/default_margin"
+                android:text=""/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvCountDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/default_margin"
+                android:maxLength="200"
+                android:padding="@dimen/default_margin"
+                android:textSize="@dimen/text_size_normal"
+                android:text="0/200"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnRemove"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+
+                    android:layout_weight="1"
+                    android:background="@drawable/border_button_pink"
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"
+                    android:text="@string/remove"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"
+                    android:visibility="visible"/>
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnAdd"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_pink"
+                    android:paddingLeft="@dimen/margin_30"
+                    android:paddingRight="@dimen/margin_30"
+                    android:text="@string/profilesecondcell_add"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

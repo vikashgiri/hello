@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_ludovic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_double"
+                android:layout_marginTop="@dimen/margin_double"
+                android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginRight="@dimen/default_margin"
+        android:background="@drawable/dialog_shape">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/default_margin">
+
+
+                <com.infoicon.bonjob.customview.CustomsItalicTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/welcome_to"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/margin_40"
+                    android:textStyle="bold"/>
+
+                <ImageView
+
+                    android:layout_width="@dimen/margin_350"
+                    android:layout_height="@dimen/margin_80"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:src="@drawable/header_logo"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:lineSpacingExtra="@dimen/margin_half"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/try_free"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_30"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_80"
+                        android:layout_height="@dimen/margin_80"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/paper"/>
+
+                    <com.infoicon.bonjob.customview.CustomsItalicTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/default_margin"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:text="@string/one_job_offer"
+                        android:textColor="@color/pink_color"
+                        android:textSize="@dimen/margin_40"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/default_margin">
+
+                    <ImageView
+                        android:layout_width="@dimen/margin_80"
+                        android:layout_height="@dimen/margin_80"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_profil"/>
+
+                    <com.infoicon.bonjob.customview.CustomsItalicTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/default_margin"
+                        android:layout_marginStart="@dimen/default_margin"
+                        android:text="@string/one_target_search"
+                        android:textColor="@color/blue_color"
+                        android:textSize="@dimen/margin_40"/>
+
+                </LinearLayout>
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnPostJob"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+
+
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:background="@drawable/round_button_pink"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="@string/post_job"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"                    />
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/tvViewOnlineCandidate"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+
+
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:background="@drawable/round_button_blue"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="@string/find_candidate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"
+                    />
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnSubscribe"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+
+
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:background="@drawable/border_pink"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="Je m'abonne"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"
+                    android:padding="@dimen/margin_12"
+                    android:textSize="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_40"
+                    android:layout_marginRight="@dimen/margin_40"
+                    />
+
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/btnEditProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_half"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_half"
+                    android:text="@string/secondviewfor_edit_my_profile"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/margin_25"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

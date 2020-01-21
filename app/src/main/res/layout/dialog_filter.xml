@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/three_side_bottom_less_bluebg"
+            android:padding="@dimen/_10sdp"
+
+            >
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/filters"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_25"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/default_margin"
+                android:src="@drawable/white_cancel"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inner_shape"
+            android:orientation="vertical">
+
+            <com.infoicon.bonjob.customview.CustomCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:padding="@dimen/margin_double"
+                android:text="@string/activity_kitchen_cat"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_normal"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:background="@color/grey"/>
+
+            <com.infoicon.bonjob.customview.CustomCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:padding="@dimen/margin_double"
+                android:text="@string/activity_room_service"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_normal"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:background="@color/grey"/>
+
+            <com.infoicon.bonjob.customview.CustomCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:button="@null"
+                android:drawableRight="@drawable/custom_checkbox"
+                android:padding="@dimen/margin_double"
+                android:text="@string/activity_hotel_accom"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size_normal"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:background="@color/grey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:weightSum="2">
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnFilter"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_button_pink"
+                    android:text="@string/filter_pluse"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"
+                    />
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnSearch"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button_pink"
+                    android:text="@string/search"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

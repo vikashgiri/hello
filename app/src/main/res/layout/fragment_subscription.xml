@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_settings"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_double"
+                android:padding="@dimen/margin_double"
+                android:src="@drawable/header_logo"/>
+
+            <LinearLayout
+                android:id="@+id/linearNoSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:text="@string/choose_subscription"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/margin_25"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:text="@string/find_cand_msg"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_25"/>
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnSubscribe"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_50"
+                    android:layout_marginRight="@dimen/margin_50"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:background="@drawable/border_pink"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="Je m'abonne"
+                    android:textAllCaps="false"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearWithSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <com.infoicon.bonjob.customview.CustomsTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="center"
+                    android:text="@string/thank_confidence_msg"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="start"
+                    android:text="@string/subscribe_to"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_25"
+                    android:layout_marginLeft="@dimen/margin_25"
+                    android:layout_marginRight="@dimen/margin_25"
+                    android:layout_marginStart="@dimen/margin_25"
+                    android:background="@color/white"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvExpireDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_double"
+                    android:layout_marginRight="@dimen/margin_double"
+                    android:layout_marginTop="@dimen/default_margin"
+                    android:gravity="start"
+                    android:text="@string/subscription_expire_on"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal"/>
+
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnRenew"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_70"
+                    android:layout_marginRight="@dimen/margin_70"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:background="@drawable/round_button_blue"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="@string/renew"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_22"
+                    />
+
+                <com.infoicon.bonjob.customview.CustomsButton
+                    android:id="@+id/btnTerminate"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/default_margin"
+                    android:layout_marginLeft="@dimen/margin_70"
+                    android:layout_marginRight="@dimen/margin_70"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:background="@drawable/round_button_pink"
+                    android:paddingLeft="@dimen/margin_double"
+                    android:paddingRight="@dimen/margin_double"
+                    android:text="@string/terminate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_22"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

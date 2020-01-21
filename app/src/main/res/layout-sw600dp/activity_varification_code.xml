@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_filter"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:text="@string/enter_your_code"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_30"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/default_margin"
+                android:padding="@dimen/default_margin"
+                android:text="@string/resend_your_code"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/margin_30"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_double"
+            android:layout_marginRight="@dimen/margin_double"
+            android:layout_marginTop="@dimen/margin_double"
+            android:background="@drawable/border_gray_edit"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_double">
+
+
+            <com.infoicon.bonjob.customview.CustomEditText
+                android:id="@+id/edVerificationCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:background="@color/transparent"
+                android:hint="@string/enter_the_code"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_30"/>
+
+        </LinearLayout>
+
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/buttonConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_40"
+            android:background="@drawable/round_button_pink"
+            android:paddingLeft="@dimen/margin_40"
+            android:paddingRight="@dimen/margin_40"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/white"
+
+
+            android:padding="@dimen/margin_12"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:layout_marginRight="@dimen/margin_40"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

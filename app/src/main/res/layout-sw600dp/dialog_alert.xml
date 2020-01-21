@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_half"
+        android:background="@drawable/dialog_shape2"
+        android:orientation="vertical"
+        >
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_top_blue"
+            android:padding="@dimen/margin_15"
+            android:text=""
+            android:gravity="center"
+            android:textSize="@dimen/margin_30"
+            android:textColor="@color/white"/>
+
+        <com.infoicon.bonjob.customview.CustomsTextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:drawablePadding="@dimen/default_margin"
+            android:paddingBottom="@dimen/default_margin"
+            android:textSize="@dimen/text_size_normal"
+            android:paddingTop="@dimen/default_margin"
+            android:text="" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:weightSum="2">
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/buttonNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:padding="@dimen/margin_12"
+                android:textSize="@dimen/margin_25"
+
+
+                android:layout_weight="1"
+                android:background="@drawable/border_pink"
+                android:text="@string/profilesecondcell_no"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:textAllCaps="false"
+                android:textColor="@color/pink_color"
+                />
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/buttonYes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_12"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                android:layout_weight="1"
+                android:background="@drawable/round_button_pink"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/profilefirstcell_yes"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

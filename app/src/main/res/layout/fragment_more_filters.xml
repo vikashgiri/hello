@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:clickable="true"
+              android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_filter"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical">
+
+                <com.infoicon.bonjob.customview.CustomCheckBox
+                    android:id="@+id/cbRestaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:drawableRight="@drawable/custom_checkbox"
+                    android:padding="@dimen/margin_double"
+                    android:visibility="gone"
+                    android:text="@string/activity_kitchen_cat"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <com.infoicon.bonjob.customview.CustomCheckBox
+                    android:id="@+id/cbSale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:visibility="gone"
+                    android:drawableRight="@drawable/custom_checkbox"
+                    android:padding="@dimen/margin_double"
+                    android:text="@string/activity_room_service"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <com.infoicon.bonjob.customview.CustomCheckBox
+                    android:id="@+id/cbHotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:button="@null"
+                    android:visibility="gone"
+                    android:drawableRight="@drawable/custom_checkbox"
+                    android:padding="@dimen/margin_double"
+                    android:text="@string/activity_hotel_accom"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/select_one_more_filter"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvTypeDeContract"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:drawableRight="@drawable/arrow_down"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/type_of_contract"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:background="@color/text_color"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvEducationLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:drawableRight="@drawable/arrow_down"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/level_of_education"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:background="@color/text_color"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvPartFullTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:drawableRight="@drawable/arrow_down"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/full_part_time"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:background="@color/text_color"/>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/default_margin"
+                    android:drawableRight="@drawable/arrow_down"
+                    android:gravity="center"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/experience"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@color/text_color"/>
+            </LinearLayout>
+
+            <com.infoicon.bonjob.customview.CustomsButton
+                android:id="@+id/btnSearch"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundbpink"
+                android:text="@string/search"
+                android:textAllCaps="false"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/dialog_ludovic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_double"
+                    android:background="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_half"
+            android:background="@drawable/dialog_shape"
+            android:orientation="vertical"
+            android:padding="@dimen/default_margin">
+
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/default_margin"
+                android:text="@string/application_sent"
+                android:textColor="@color/pink_color"
+                android:textSize="@dimen/text_size_22"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/margin_half"
+                android:padding="@dimen/default_margin"
+                android:text="@string/application_message"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_22"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_double"
+                android:padding="@dimen/default_margin"
+                android:text="@string/good_luck_message"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_22"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/header_logo"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <com.infoicon.bonjob.customview.CustomsButton
+        android:id="@+id/btnContinueMySearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGotoProfile"
+        android:layout_margin="@dimen/margin_double"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/round_button_pink"
+        android:text="@string/continue_my_search"
+        android:textColor="@color/white"/>
+
+    <com.infoicon.bonjob.customview.CustomsButton
+        android:id="@+id/btnGotoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_double"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/round_button_blue"
+        android:text="@string/goto_my_profile"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

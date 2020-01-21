@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="array_job_offered" tools:ignore="InconsistentArrays">
+        <item>Adjoint(e) de direction</item>
+        <item>Agent de réservation</item>
+        <item>Attaché(e) commercial(e)</item>
+        <item>Bagagiste</item>
+        <item>Barman</item>
+        <item>Boucher</item>
+        <item>Boulanger</item>
+        <item>Charcutier</item>
+        <item>Chargé(e) de projets événementiel</item>
+        <item>Chasseur</item>
+        <item>Chef cuisinier</item>
+        <item>Chef cuisinier en restauration collective</item>
+        <item>Chef d\'équipe en restauration collective</item>
+        <item>Chef d\'équipe en restauration rapide</item>
+        <item>Chef de cuisine</item>
+        <item>Chef de maintenance</item>
+        <item>Chef de partie</item>
+        <item>Chef de production en restauration collective</item>
+        <item>Chef de rang</item>
+        <item>Chef de rang room service</item>
+        <item>Chef de réception</item>
+        <item>Chef gérant</item>
+        <item>Chef sommelier</item>
+        <item>Chocolatier / Confiseur</item>
+        <item>Commis de cuisine</item>
+        <item>Commis de salle</item>
+        <item>Concierge d\'hôtel</item>
+        <item>Concierge de grand hôtel</item>
+        <item>Crêpier</item>
+        <item>Cuisinier</item>
+        <item>Cuisinier dans la fonction publique</item>
+        <item>Diététicien(ne)</item>
+        <item>Diététicien(ne) d\'exploitation</item>
+        <item>Directeur adjoint en restauration rapide</item>
+        <item>Directeur commercial</item>
+        <item>Directeur d\’hôtel</item>
+        <item>Directeur de l\'hébergement</item>
+        <item>Directeur de la restauration</item>
+        <item>Directeur de restaurant</item>
+        <item>Directeur en restauration rapide</item>
+        <item>Ecailler</item>
+        <item>Économe</item>
+        <item>Employé(e) d\’étage</item>
+        <item>Employé(e) de café</item>
+        <item>Employé(e) de restauration</item>
+        <item>Employé(e) de restauration secteur Cuisine</item>
+        <item>Employé(e) de restauration secteur Service</item>
+        <item>Employé(e) polyvalent(e) en restauration collective</item>
+        <item>Équipier en restauration rapide</item>
+        <item>Exploitant de café, bar, brasserie</item>
+        <item>Exploitant en restauration</item>
+        <item>Femme de chambre</item>
+        <item>Fromager</item>
+        <item>Garçon de café</item>
+        <item>Gérant / Chef&#8211;gérant en restauration collective</item>
+        <item>Gouvernante</item>
+        <item>Gouvernante générale</item>
+        <item>Groom</item>
+        <item>Guest relation manager</item>
+        <item>Hôte / Hôtesse d\'accueil</item>
+        <item>Liftier</item>
+        <item>Limonadier</item>
+        <item>Lingère</item>
+        <item>Maître d\’hôtel</item>
+        <item>Majordome</item>
+        <item>Manager dans la restauration</item>
+        <item>Manager en restauration rapide</item>
+        <item>Manager spécialisé dans le luxe</item>
+        <item>Night Auditor</item>
+        <item>Pâtissier</item>
+        <item>Pizzaïolo</item>
+        <item>Plongeur</item>
+        <item>Poissonnier</item>
+        <item>Portier</item>
+        <item>Préparateur / Vendeur en restauration rapide</item>
+        <item>Réceptionniste</item>
+        <item>Réceptionniste de nuit</item>
+        <item>Responsable de salle</item>
+        <item>Responsable room service</item>
+        <item>Revenue ou Yield Manager</item>
+        <item>Second de cuisine</item>
+        <item>Serveur</item>
+        <item>Sommelier</item>
+        <item>Sous-chef</item>
+        <item>Spa manager</item>
+        <item>Technicien de maintenance</item>
+        <item>Traiteur</item>
+        <item>Traiteur / Organisateur de réception</item>
+        <item>Valet de chambre</item>
+        <item>Veilleur de nuit</item>
+        <item>Vendeur</item>
+        <item>Voiturier</item>
+    </string-array>
+
+    <string-array name="array_restaurant" tools:ignore="InconsistentArrays">
+        <item>Boucher</item>
+        <item>Boulanger</item>
+        <item>Charcutier</item>
+        <item>Chargé(e) de projets événementiel</item>
+        <item>Chef cuisinier</item>
+        <item>Chef cuisinier en restauration collective</item>
+        <item>Chef d\'équipe en restauration collective</item>
+        <item>Chef d\'équipe en restauration rapide</item>
+        <item>Chef de cuisine</item>
+        <item>Chef de partie</item>
+        <item>Chef de production en restauration collective</item>
+        <item>Chef gérant</item>
+        <item>Chocolatier / Confiseur</item>
+        <item>Commis de cuisine</item>
+        <item>Crêpier</item>
+        <item>Cuisinier</item>
+        <item>Cuisinier dans la fonction publique</item>
+        <item>Diététicien(ne)</item>
+        <item>Diététicien(ne) d\'exploitation</item>
+        <item>Directeur adjoint en restauration rapide</item>
+        <item>Directeur de la restauration</item>
+        <item>Directeur de restaurant</item>
+        <item>Directeur en restauration rapide</item>
+        <item>Ecailler</item>
+        <item>Économe</item>
+        <item>Employé(e) de restauration</item>
+        <item>Employé(e) de restauration secteur Cuisine</item>
+        <item>Employé(e) polyvalent(e) en restauration collective</item>
+        <item>Exploitant en restauration</item>
+        <item>Fromager</item>
+        <item>Gérant / Chef-gérant en restauration collective</item>
+        <item>Manager dans la restauration</item>
+        <item>Manager en restauration rapide</item>
+        <item>Pâtissier</item>
+        <item>Pizzaïolo</item>
+        <item>Plongeur</item>
+        <item>Poissonnier</item>
+        <item>Préparateur / Vendeur en restauration rapide</item>
+        <item>Revenue ou Yield Manager</item>
+        <item>Second de cuisine</item>
+        <item>Sous-chef</item>
+        <item>Traiteur</item>
+        <item>Traiteur / Organisateur de réception</item>
+    </string-array>
+
+    <string-array name="array_sale_service" tools:ignore="InconsistentArrays">
+        <item>Agent de réservation</item>
+        <item>Barman</item>
+        <item>Chef de rang</item>
+        <item>Chef sommelier</item>
+        <item>Commis de salle</item>
+        <item>Employé(e) de café</item>
+        <item>Employé(e) de restauration secteur Service</item>
+        <item>Équipier en restauration rapide</item>
+        <item>Exploitant de café, bar, brasserie</item>
+        <item>Garçon de café</item>
+        <item>Hôte / Hôtesse d\'accueil</item>
+        <item>Limonadier</item>
+        <item>Maître d\’hôtel</item>
+        <item>Majordome</item>
+        <item>Responsable de salle</item>
+        <item>Serveur</item>
+        <item>Sommelier</item>
+        <item>Vendeur</item>
+    </string-array>
+
+    <string-array name="array_hotel" tools:ignore="InconsistentArrays">
+        <item>Adjoint(e) de direction</item>
+        <item>Attaché(e) commercial(e)</item>
+        <item>Bagagiste</item>
+        <item>Chasseur</item>
+        <item>Chef de maintenance</item>
+        <item>Chef de rang room service</item>
+        <item>Chef de réception</item>
+        <item>Concierge d\'hôtel</item>
+        <item>Concierge de grand hôtel</item>
+        <item>Directeur commercial</item>
+        <item>Directeur d\’hôtel</item>
+        <item>Directeur de l\'hébergement</item>
+        <item>Employé(e) d\’étage</item>
+        <item>Femme de chambre</item>
+        <item>Gouvernante</item>
+        <item>Gouvernante générale</item>
+        <item>Groom</item>
+        <item>Guest relation manager</item>
+        <item>Liftier</item>
+        <item>Lingère</item>
+        <item>Manager spécialisé dans le luxe</item>
+        <item>Night Auditor</item>
+        <item>Portier</item>
+        <item>Réceptionniste</item>
+        <item>Réceptionniste de nuit</item>
+        <item>Responsable room service</item>
+        <item>Spa manager</item>
+        <item>Technicien de maintenance</item>
+        <item>Valet de chambre</item>
+        <item>Veilleur de nuit</item>
+        <item>Voiturier</item>
+    </string-array>
+
+    <string-array name="array_active_area">
+        <item>@string/activity_kitchen_cat</item>
+        <item>@string/activity_room_service</item>
+        <item>@string/activity_hotel_accom</item>
+    </string-array>
+
+    <string-array name="array_language">
+        <item>@string/francies</item>
+        <item>@string/anglais</item>
+        <item>@string/espagnol</item>
+        <item>@string/allemand</item>
+        <item>@string/portgal</item>
+        <item>@string/china</item>
+        <item>@string/japnise</item>
+        <item>@string/arabic</item>
+        <item>@string/russia</item>
+        <item>@string/hindi</item>
+    </string-array>
+
+    <string-array name="education_level">
+        <item>@string/no_diploma</item>
+        <item>@string/youth_training</item>
+        <item>@string/vocational_training</item>
+        <item>@string/bp</item>
+        <item>@string/high_school</item>
+        <item>@string/high_school_profess_training</item>
+        <item>@string/higher_diploma</item>
+        <item>@string/higher_edu</item>
+        <item>@string/bachelor</item>
+        <item>@string/master</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="array_type_of_contract">
+        <item>@string/fixed_term_contract</item>
+        <item>@string/permanent_contract</item>
+        <item>@string/intrim</item>
+        <item>@string/apprenticeship</item>
+        <item>@string/internship</item>
+        <item>@string/franchise</item>
+    </string-array>
+
+
+    <string-array name="array_ed_profile_salary">
+        <item>@string/ten_sal</item>
+        <item>@string/fifty_sal</item>
+        <item>@string/hundred_sal</item>
+        <item>@string/hundred_plus_sal</item>
+    </string-array>
+
+    <string-array name="array_com_category">
+        <item>@string/restaurent</item>
+        <item>@string/hotel</item>
+        <item>@string/hotel_restaurznt</item>
+        <item>@string/cafe</item>
+        <item>@string/nightclub</item>
+        <item>@string/therepy</item>
+        <item>@string/caterer</item>
+    </string-array>
+
+    <string-array name="array_salary">
+        <item>@string/sal1</item>
+        <item>@string/sal2</item>
+        <item>@string/sal3</item>
+        <item>@string/sal4</item>
+        <item>@string/sal5</item>
+        <item>@string/sal6</item>
+        <item>@string/sal7</item>
+        <item>@string/sal8</item>
+        <item>@string/sal9</item>
+        <item>@string/sal10</item>
+        <item>@string/sal11</item>
+        <item>@string/sal12</item>
+    </string-array>
+
+    <string-array name="array_experience">
+        <item>@string/exp1</item>
+        <item>@string/exp2</item>
+        <item>@string/exp3</item>
+        <item>@string/exp4</item>
+        <item>@string/exp5</item>
+    </string-array>
+
+    <string-array name="array_mobility">
+        <item>@string/profilefirstcell_yes</item>
+        <item>@string/profilesecondcell_no</item>
+    </string-array>
+
+    <string-array name="array_num_hour">
+        <item>@string/num_hour1</item>
+        <item>@string/num_hour2</item>
+        <item>@string/num_hour3</item>
+        <item>@string/num_hour4</item>
+        <item>@string/num_hour5</item>
+        <item>@string/num_hour6</item>
+        <item>@string/num_hour7</item>
+    </string-array>
+
+    <string-array name="array_status_actual">
+        <item>@string/profilefirstcell_student</item>
+        <item>@string/profilesecondcell_appretice</item>
+        <item>@string/profilesecondcell_activr</item>
+        <item>@string/profilesecondcell_job_seeker</item>
+        <item>@string/profilesecondcell_inactive</item>
+    </string-array>
+
+    <string name="array_full_part_time_job">
+        <item>Plein temps</item>
+        <item>Partiel temps</item>
+    </string>
+
+
+    <string-array name="array_country_code">
+        <item>+93</item>
+        <item>+27</item>
+        <item>+355</item>
+        <item>+213</item>
+        <item>+49</item>
+        <item>+376</item>
+        <item>+244</item>
+        <item>+1264</item>
+        <item>+672</item>
+        <item>+966</item>
+        <item>+54</item>
+        <item>+374</item>
+        <item>+297</item>
+        <item>+61</item>
+        <item>+43</item>
+        <item>+994</item>
+        <item>+1</item>
+        <item>+973</item>
+        <item>+880</item>
+        <item>+1</item>
+        <item>+32</item>
+        <item>+501</item>
+        <item>+229</item>
+        <item>+1</item>
+        <item>+975</item>
+        <item>+375</item>
+        <item>+591</item>
+        <item>+387</item>
+        <item>+267</item>
+        <item>+55</item>
+        <item>+673</item>
+        <item>+359</item>
+        <item>+226</item>
+        <item>+257</item>
+        <item>+855</item>
+        <item>+237</item>
+        <item>+1</item>
+        <item>+238</item>
+        <item>+56</item>
+        <item>+86</item>
+        <item>+357</item>
+        <item>+57</item>
+        <item>+269</item>
+        <item>+850</item>
+        <item>+82</item>
+        <item>+506</item>
+        <item>+225</item>
+        <item>+385</item>
+        <item>+53</item>
+        <item>+599</item>
+        <item>+45</item>
+        <item>+253</item>
+        <item>+1</item>
+        <item>+20</item>
+        <item>+971</item>
+        <item>+593</item>
+        <item>+291</item>
+        <item>+34</item>
+        <item>+372</item>
+        <item>+2</item>
+        <item>+251</item>
+        <item>+679</item>
+        <item>+358</item>
+        <item>+33</item>
+        <item>+241</item>
+        <item>+220</item>
+        <item>+995</item>
+        <item>+233</item>
+        <item>+350</item>
+        <item>+30</item>
+        <item>+299</item>
+        <item>+590</item>
+        <item>+1671</item>
+        <item>+502</item>
+        <item>+224</item>
+        <item>+240</item>
+        <item>+245</item>
+        <item>+592</item>
+        <item>+509</item>
+        <item>+504</item>
+        <item>+852</item>
+        <item>+36</item>
+        <item>+44</item>
+        <item>+672</item>
+        <item>+1345</item>
+        <item>+682</item>
+        <item>+500</item>
+        <item>+298</item>
+        <item>+1670</item>
+        <item>+692</item>
+        <item>+870</item>
+        <item>+677</item>
+        <item>+1284</item>
+        <item>+91</item>
+        <item>+62</item>
+        <item>+964</item>
+        <item>+98</item>
+        <item>+353</item>
+        <item>+354</item>
+        <item>+972</item>
+        <item>+39</item>
+        <item>+1</item>
+        <item>+81</item>
+        <item>+962</item>
+        <item>+7</item>
+        <item>+254</item>
+        <item>+996</item>
+        <item>+686</item>
+        <item>+381</item>
+        <item>+965</item>
+        <item>+856</item>
+        <item>+266</item>
+        <item>+371</item>
+        <item>+961</item>
+        <item>+231</item>
+        <item>+218</item>
+        <item>+423</item>
+        <item>+370</item>
+        <item>+352</item>
+        <item>+853</item>
+        <item>+389</item>
+        <item>+261</item>
+        <item>+60</item>
+        <item>+265</item>
+        <item>+960</item>
+        <item>+223</item>
+        <item>+356</item>
+        <item>+212</item>
+        <item>+230</item>
+        <item>+222</item>
+        <item>+52</item>
+        <item>+691</item>
+        <item>+373</item>
+        <item>+377</item>
+        <item>+976</item>
+        <item>+382</item>
+        <item>+1664</item>
+        <item>+258</item>
+        <item>+95</item>
+        <item>+264</item>
+        <item>+674</item>
+        <item>+977</item>
+        <item>+505</item>
+        <item>+227</item>
+        <item>+234</item>
+        <item>+683</item>
+        <item>+47</item>
+        <item>+687</item>
+        <item>+64</item>
+        <item>+968</item>
+        <item>+256</item>
+        <item>+998</item>
+        <item>+92</item>
+        <item>+680</item>
+        <item>+507</item>
+        <item>+675</item>
+        <item>+595</item>
+        <item>+31</item>
+        <item>+51</item>
+        <item>+63</item>
+        <item>+48</item>
+        <item>+689</item>
+        <item>+1</item>
+        <item>+351</item>
+        <item>+974</item>
+        <item>+236</item>
+        <item>+243</item>
+        <item>+1</item>
+        <item>+242</item>
+        <item>+420</item>
+        <item>+262</item>
+        <item>+40</item>
+        <item>+44</item>
+        <item>+7</item>
+        <item>+250</item>
+        <item>+212</item>
+        <item>+590</item>
+        <item>+378</item>
+        <item>+1599</item>
+        <item>+508</item>
+        <item>+1</item>
+        <item>+1</item>
+        <item>+290</item>
+        <item>+1</item>
+        <item>+503</item>
+        <item>+685</item>
+        <item>+1684</item>
+        <item>+239</item>
+        <item>+221</item>
+        <item>+381</item>
+        <item>+248</item>
+        <item>+232</item>
+        <item>+65</item>
+        <item>+421</item>
+        <item>+386</item>
+        <item>+252</item>
+        <item>+249</item>
+        <item>+211</item>
+        <item>+94</item>
+        <item>+46</item>
+        <item>+41</item>
+        <item>+597</item>
+        <item>+268</item>
+        <item>+963</item>
+        <item>+992</item>
+        <item>+886</item>
+        <item>+255</item>
+        <item>+66</item>
+        <item>+670</item>
+        <item>+228</item>
+        <item>+690</item>
+        <item>+1</item>
+        <item>+216</item>
+        <item>+993</item>
+        <item>+90</item>
+        <item>+688</item>
+        <item>+380</item>
+        <item>+598</item>
+        <item>+678</item>
+        <item>+39</item>
+        <item>+58</item>
+        <item>+84</item>
+        <item>+967</item>
+        <item>+260</item>
+        <item>+263</item>
+    </string-array>
+
+    <string-array name="array_country_name">
+        <item>Afghanistan</item>
+        <item>Afrique du Sud</item>
+        <item>Albanie</item>
+        <item>Algérie</item>
+        <item>Allemagne</item>
+        <item>Andorre</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctique</item>
+        <item>Arabie Saoudite</item>
+        <item>Argentine</item>
+        <item>Arménie</item>
+        <item>Aruba</item>
+        <item>Australie</item>
+        <item>Autriche</item>
+        <item>Azerbaïdjan</item>
+        <item>Bahamas</item>
+        <item>Bahreïn</item>
+        <item>Bangladesh</item>
+        <item>Barbade</item>
+        <item>Belgique</item>
+        <item>Belize</item>
+        <item>Bénin</item>
+        <item>Bermudes</item>
+        <item>Bhoutan</item>
+        <item>Biélorussie</item>
+        <item>Bolivie</item>
+        <item>Bosnie Herzégovine</item>
+        <item>Botswana</item>
+        <item>Brésil</item>
+        <item>Brunei</item>
+        <item>Bulgarie</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodge</item>
+        <item>Cameroun</item>
+        <item>Canada</item>
+        <item>Cap&#8211;Vert</item>
+        <item>Chili</item>
+        <item>Chine</item>
+        <item>Chypre</item>
+        <item>Colombie</item>
+        <item>Comores</item>
+        <item>Corée du Nord</item>
+        <item>Corée du Sud</item>
+        <item>Costa Rica</item>
+        <item>Côte d\'Ivoire</item>
+        <item>Croatie</item>
+        <item>Cuba</item>
+        <item>Curacao</item>
+        <item>Danemark</item>
+        <item>Djibouti</item>
+        <item>Dominique</item>
+        <item>Egypte</item>
+        <item>Emirats Arabes Unis</item>
+        <item>Équateur</item>
+        <item>Érythrée</item>
+        <item>Espagne</item>
+        <item>Estonie</item>
+        <item>États-Unis</item>
+        <item>Ethiopie</item>
+        <item>Fidji</item>
+        <item>Finlande</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambie</item>
+        <item>Géorgie</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grèce</item>
+        <item>Groenland</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinée</item>
+        <item>Guinée Équatoriale</item>
+        <item>Guinée&#8211;Bissau</item>
+        <item>Guyane</item>
+        <item>Haïti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hongrie</item>
+        <item>Île de Man</item>
+        <item>Île de Norfolk</item>
+        <item>Îles Caïmans</item>
+        <item>Îles Cook</item>
+        <item>Îles Falkland</item>
+        <item>Îles Féroé</item>
+        <item>Îles Mariannes du Nord</item>
+        <item>Îles Marshall</item>
+        <item>Îles Pitcairn</item>
+        <item>Îles Salomon</item>
+        <item>Îles Vierges britanniques</item>
+        <item>Inde</item>
+        <item>Indonésie</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Irlande</item>
+        <item>Islande</item>
+        <item>Israël</item>
+        <item>Italie</item>
+        <item>Jamaïque</item>
+        <item>Japon</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kirghizistan</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Koweit</item>
+        <item>Laos</item>
+        <item>Lesotho</item>
+        <item>Lettonie</item>
+        <item>Liban</item>
+        <item>Libéria</item>
+        <item>Libye</item>
+        <item>Liechtenstein</item>
+        <item>Lituanie</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macédoine</item>
+        <item>Madagascar</item>
+        <item>Malaisie</item>
+        <item>Malawi</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malte</item>
+        <item>Maroc</item>
+        <item>Maurice</item>
+        <item>Mauritanie</item>
+        <item>Mexique</item>
+        <item>Micronésie</item>
+        <item>Moldavie</item>
+        <item>Monaco</item>
+        <item>Mongolie</item>
+        <item>Monténégro</item>
+        <item>Montserrat</item>
+        <item>Mozambique</item>
+        <item>Myanmar (Birmanie)</item>
+        <item>Namibie</item>
+        <item>Nauru</item>
+        <item>Népal</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norvège</item>
+        <item>Nouvelle Calédonie</item>
+        <item>Nouvelle&#8211;Zélande</item>
+        <item>Oman</item>
+        <item>Ouganda</item>
+        <item>Ouzbékistan</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papouasie Nouvelle Guinée</item>
+        <item>Paraguay</item>
+        <item>Pays-Bas</item>
+        <item>Pérou</item>
+        <item>Philippines</item>
+        <item>Pologne</item>
+        <item>Polynésie française</item>
+        <item>Porto Rico</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>République centrafricaine</item>
+        <item>République Démocratique du Congo</item>
+        <item>République Dominicaine</item>
+        <item>République du Congo</item>
+        <item>République Tchèque</item>
+        <item>Réunion</item>
+        <item>Roumanie</item>
+        <item>Royaume-Uni</item>
+        <item>Russie</item>
+        <item>Rwanda</item>
+        <item>Sahara occidental</item>
+        <item>Saint Barthélemy</item>
+        <item>Saint Marin</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre et Miquelon</item>
+        <item>Saint&#8211;Christophe&#8211;et&#8211;Niévès</item>
+        <item>Saint&#8211;Vincent&#8211;et&#8211;les&#8211;Grenadines</item>
+        <item>Sainte-&#8211;Hélène</item>
+        <item>Sainte&#8211;Lucie</item>
+        <item>Salvador</item>
+        <item>Samoa</item>
+        <item>Samoa américaines</item>
+        <item>Sao Tomé&#8211;et&#8211;Principe</item>
+        <item>Sénégal</item>
+        <item>Serbie</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapour</item>
+        <item>Slovaquie</item>
+        <item>Slovénie</item>
+        <item>Somalie</item>
+        <item>Soudan</item>
+        <item>Soudan du sud</item>
+        <item>Sri Lanka</item>
+        <item>Suède</item>
+        <item>Suisse</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Syrie</item>
+        <item>Tadjikistan</item>
+        <item>Taïwan</item>
+        <item>Tanzanie</item>
+        <item>Thaïlande</item>
+        <item>Timor oriental</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Trinité&#8211;et&#8211;Tobago</item>
+        <item>Tunisie</item>
+        <item>Turkménistan</item>
+        <item>Turquie</item>
+        <item>Tuvalu</item>
+        <item>Ukraine</item>
+        <item>Uruguay</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yémen</item>
+        <item>Zambie</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+</resources>

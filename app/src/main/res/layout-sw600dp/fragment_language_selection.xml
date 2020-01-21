@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:clickable="true"
+                android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_edit_profile"/>
+
+    <com.infoicon.bonjob.customview.CustomsTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        android:text="@string/profilefirstcell_language"
+        android:textColor="@color/blue_color"
+        android:textSize="@dimen/margin_40"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_margin="@dimen/default_margin"/>
+
+
+</RelativeLayout>

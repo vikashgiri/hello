@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/dialog_ludovic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/margin_double"
+                    android:background="@color/transparent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:background="@drawable/dialog_shape"
+                android:elevation="@dimen/default_margin"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_double">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin_25"
+                    android:layout_marginRight="@dimen/margin_25"
+                    android:src="@drawable/header_logo"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_double"
+                    android:src="@drawable/green_unlock"/>
+
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_30"
+                    android:layout_marginLeft="@dimen/default_margin"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/margin_half"
+                    android:text="@string/business_verified_success"
+                    android:textColor="@color/pink_color"
+                    android:textSize="@dimen/text_size_22"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_60"
+                    android:layout_marginRight="@dimen/margin_60"
+                    android:layout_marginTop="@dimen/margin_30"
+                    android:background="@drawable/round_button_blue">
+
+                    <com.infoicon.bonjob.customview.CustomsButton
+                        android:id="@+id/btnOk"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawablePadding="@dimen/default_margin"
+                        android:drawableRight="@drawable/checkmarkludo"
+                        android:text="@string/message_ok"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/margin_25"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:padding="@dimen/default_margin"
+            android:src="@drawable/close_btn_pink"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

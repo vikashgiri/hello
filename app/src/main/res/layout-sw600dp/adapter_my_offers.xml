@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@color/text_color">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/margin_half"
+        android:paddingRight="@dimen/margin_half">
+
+        <com.infoicon.bonjob.customview.CircleImageView
+            android:id="@+id/imgViewJob"
+            android:layout_width="@dimen/margin_120"
+            android:layout_height="@dimen/margin_120"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/default_icon"/>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_toEndOf="@+id/imgViewJob"
+            android:layout_toRightOf="@+id/imgViewJob"
+            android:orientation="vertical">
+
+            <com.infoicon.bonjob.customview.CustomsTextViewBold
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginStart="@dimen/default_margin"
+                android:padding="@dimen/margin_half"
+                android:textSize="@dimen/text_size_normal"
+                android:text="SERVEUR H/F - 20H/SEM"
+                android:textColor="@color/black"/>
+
+            <com.infoicon.bonjob.customview.CustomsTextView
+                android:id="@+id/tvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginStart="@dimen/default_margin"
+                android:button="@null"
+                android:checked="true"
+                android:drawablePadding="@dimen/default_margin"
+                android:ellipsize="end"
+                android:enabled="false"
+                android:maxLines="3"
+                android:textSize="@dimen/text_size_normal"
+                android:padding="@dimen/margin_half"
+                android:text="Serveur/serveuse pour emploi a temps partiel 20h/semaine, experience en restauration rapide apreciee."
+                android:textColor="@color/black"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+android:visibility="gone"
+                    android:layout_toLeftOf="@+id/progressTimer"
+                    android:layout_toStartOf="@+id/progressTimer">
+
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvHour"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/margin_half"
+                        android:paddingBottom="@dimen/margin_half"
+                        android:gravity="center"
+                        android:text="24"
+                        android:textSize="@dimen/text_size_normal"
+                        />
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/margin_half"
+                        android:paddingBottom="@dimen/margin_half"
+                        android:text=":"
+                        android:textSize="@dimen/text_size_normal"
+                        />
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvMinutes"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/margin_half"
+                        android:textSize="@dimen/text_size_normal"
+                        android:paddingBottom="@dimen/margin_half"
+                        android:text="00"
+                        />
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/margin_half"
+                        android:paddingBottom="@dimen/margin_half"
+                        android:text=":"
+                        android:textSize="@dimen/text_size_normal"
+                        />
+                    <com.infoicon.bonjob.customview.CustomsTextView
+                        android:id="@+id/tvSeconds"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/margin_half"
+                        android:paddingBottom="@dimen/margin_half"
+                        android:textSize="@dimen/text_size_normal"
+                        android:text="00"
+                        />
+
+
+
+                </LinearLayout>
+
+                <com.infoicon.bonjob.customview.CustomsTextView
+                    android:id="@+id/tvTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/progressTimer"
+                    android:layout_toStartOf="@+id/progressTimer"
+                    android:padding="@dimen/margin_half"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="24:00:00"/>
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/progressTimer"
+                    android:layout_width="@dimen/margin_160"
+                    android:layout_height="@dimen/margin_25"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:rcBackgroundColor="@color/blue_color"
+                    app:rcBackgroundPadding="@dimen/margin_1"
+                    app:rcMax="86400"
+                    app:rcProgress="0"
+                    app:rcProgressColor="@color/blue_color"
+                    app:rcRadius="@dimen/margin_half"
+                    app:rcReverse="false"
+                    app:rcSecondaryProgress="86400"
+                    app:rcSecondaryProgressColor="@color/white"/>
+
+                <!-- <ProgressBar
+                     android:id="@+id/progressTimer"
+                     android:layout_width="@dimen/margin_140"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentEnd="true"
+                     style="?android:attr/progressBarStyleHorizontal"
+                     android:padding="@dimen/margin_half"
+                     android:progress="2000"
+                     android:progressDrawable="@drawable/pregress"
+                     android:max="86400"
+                     />-->
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

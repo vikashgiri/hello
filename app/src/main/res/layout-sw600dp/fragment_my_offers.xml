@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clickable="true">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_single_title"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        layout="@layout/fragment_default_my_offers"/>
+
+    <RelativeLayout
+        android:id="@+id/rlRetry"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.infoicon.bonjob.customview.CustomsTextViewBold
+            android:id="@+id/tvErrorMessage"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/margin_40"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="@dimen/default_margin"
+            android:drawablePadding="@dimen/margin_half"
+
+            android:drawableTop="@drawable/sad"
+            android:text="@string/error_something_went_wrong"
+            android:layout_height="wrap_content"/>
+
+        <com.infoicon.bonjob.customview.CustomsButton
+            android:id="@+id/btnRetry"
+            android:layout_below="@+id/tvErrorMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/margin_25"
+            android:layout_marginRight="@dimen/margin_100"
+            android:layout_marginLeft="@dimen/margin_100"
+            android:background="@drawable/round_button_pink"
+            android:text="@string/retry"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

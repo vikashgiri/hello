@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.infoicon.bonjob.customview.CustomCheckedTextView
+        android:id="@+id/tvJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="sdfdfdfdefef"
+        android:padding="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:textColor="@color/black"
+        android:textSize="@dimen/margin_25"/>
+
+    <com.infoicon.bonjob.customview.CustomsTextView
+        android:id="@+id/tvJobLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/default_margin"
+        android:visibility="gone"
+        android:text="eredffcdcfdxcxcc"
+        android:textColor="@color/blue_color"
+        android:textSize="@dimen/text_size_normal"/>
+
+
+</LinearLayout>
